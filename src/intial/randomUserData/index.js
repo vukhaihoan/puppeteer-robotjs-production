@@ -64,12 +64,12 @@ function randomUserData() {
     }
     const born = rdate();
     const mailHard = randomMaillLvel3().toLowerCase();
-    const mailNomal = `${removeAccents(first)}${removeAccents(lastOne)}${rn(1, 1000)}${stringGenerate(
+    const mailNormal = `${removeAccents(first)}${removeAccents(lastOne)}${rn(1, 1000)}${stringGenerate(
         3
     )}`.toLowerCase();
     const fullResult = {
         mail: {
-            Nomal: mailNomal,
+            Normal: mailNormal,
             Hard: mailHard,
         },
         password,
