@@ -1,0 +1,120 @@
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 622172a870960e08179b6f61
+new profile name= 1CKmPNguyen16*
+proxyStatus {
+  city: 'Quận Nam Từ Liêm',
+  status: 'success',
+  origin: '116.107.238.178',
+  country: 'VN',
+  timezone: 'Asia/Bangkok',
+  error: 'Proxy error'
+}
+Proxy is working
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_622172a870960e08179b6f61
+TimeoutError: Navigation timeout of 30000 ms exceeded
+    at d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\LifecycleWatcher.js:107:111
+    at async FrameManager.waitForFrameNavigation (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\FrameManager.js:167:23)
+    at async Frame.waitForNavigation (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\FrameManager.js:530:16)
+    at async Page.waitForNavigation (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Page.js:1229:16)
+    at async runOutlook (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\auto\browser\outlook.js:35:5)
+    at async module.exports (d:\A_Hoan_Code\new-code\deploy\automation-deploy\sbridge\runOutlook.js:3:12)
+    at async main (d:\A_Hoan_Code\new-code\deploy\automation-deploy\main\runlistoutlook.js:54:13)
+Uploading profile by signed URL to S3
+BUFFER SIZE 177885
+Profile has been uploaded to S3 successfully
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 622182f9657d5c1b3ffcbd0a
+new profile name= 8619LeNaN?
+proxyStatus {
+  city: 'Quận Nam Từ Liêm',
+  status: 'success',
+  origin: '117.1.235.100',
+  country: 'VN',
+  timezone: 'Asia/Bangkok',
+  error: 'Proxy error'
+}
+Proxy is working
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_622182f9657d5c1b3ffcbd0a
+trường hợp button có nền trắng
+không có fail Link -> mail true
+page url:  https://signup.live.com/signup?lcid=1033&wa=wsignin1.0&rpsnv=13&ct=1646363420&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fnlp%3d1%26signup%3d1%26RpsCsrfState%3d16231b75-1063-f406-371d-e2c2ce8c999f&id=292841&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015&lic=1&uaid=6c8ae61a54184f66b15f6637b7c9e6c8
+token:  877622183374fbcb4.4423826805|r=eu-west-1|metabgclr=%23ffffff|maintxtclr=%231B1B1B|mainbgclr=%23ffffff|guitextcolor=%23747474|metaiconclr=%23757575|meta_height=325|meta=7|lang=en|pk=B7D8911C-5CC8-A9A3-35B0-554ACEE604DA|at=40|cdn_url=https%3A%2F%2Fclient-api.arkoselabs.com%2Fcdn%2Ffc|lurl=https%3A%2F%2Faudio-eu-west-1.arkoselabs.com|surl=https%3A%2F%2Fclient-api.arkoselabs.com
+submit success on page
+Uploading profile by signed URL to S3
+BUFFER SIZE 473813
+Profile has been uploaded to S3 successfully
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 62218523f902db4bc2e75e2b
+new profile name= 365HoNaN!
+proxyStatus {
+  city: 'Quận Nam Từ Liêm',
+  status: 'success',
+  origin: '116.107.225.137',
+  country: 'VN',
+  timezone: 'Asia/Bangkok',
+  error: 'Proxy error'
+}
+Proxy is working
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_62218523f902db4bc2e75e2b
+trường hợp button không có nền trắng
+không có fail Link -> mail true
+TypeError: Cannot read properties of null (reading 'contentFrame')
+    at submitAnyCaptcha (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\auto\browser\outlook.js:120:43)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async goto (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\utils\goto.js:17:9)
+    at async runOutlook (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\auto\browser\outlook.js:164:5)
+    at async module.exports (d:\A_Hoan_Code\new-code\deploy\automation-deploy\sbridge\runOutlook.js:3:12)
+    at async main (d:\A_Hoan_Code\new-code\deploy\automation-deploy\main\runlistoutlook.js:54:13)
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 62218644fab79a6697c565b0
+new profile name= NguyenHeO752%
+proxyStatus {
+  city: 'Quận Nam Từ Liêm',
+  status: 'success',
+  origin: '116.107.225.137',
+  country: 'VN',
+  timezone: 'Asia/Bangkok',
+  error: 'Proxy error'
+}
+Proxy is working
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_62218644fab79a6697c565b0
+TimeoutError: Navigation timeout of 30000 ms exceeded
+    at d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\LifecycleWatcher.js:107:111
+    at async FrameManager.waitForFrameNavigation (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\FrameManager.js:167:23)
+    at async Frame.waitForNavigation (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\FrameManager.js:530:16)
+    at async Page.waitForNavigation (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Page.js:1229:16)
+    at async runOutlook (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\auto\browser\outlook.js:35:5)
+    at async module.exports (d:\A_Hoan_Code\new-code\deploy\automation-deploy\sbridge\runOutlook.js:3:12)
+    at async main (d:\A_Hoan_Code\new-code\deploy\automation-deploy\main\runlistoutlook.js:54:13)
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 622186a41b56f19eaeea366c
+new profile name= BuiTry252@
+proxyStatus {
+  city: 'Quận Nam Từ Liêm',
+  status: 'success',
+  origin: '116.107.225.137',
+  country: 'VN',
+  timezone: 'Asia/Bangkok',
+  error: 'Proxy error'
+}
+Proxy is working
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_622186a41b56f19eaeea366c
+trường hợp button có nền trắng
+không có fail Link -> mail true
+page url:  https://signup.live.com/signup?lcid=1033&wa=wsignin1.0&rpsnv=13&ct=1646364368&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fnlp%3d1%26signup%3d1%26RpsCsrfState%3d97124632-7417-857b-b6b2-77435a183778&id=292841&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015&lic=1&uaid=b5e99fe84de14e01aff31e9cdf3f2550
+token:  115622186f3b44197.0914924805|r=eu-west-1|metabgclr=%23ffffff|maintxtclr=%231B1B1B|mainbgclr=%23ffffff|guitextcolor=%23747474|metaiconclr=%23757575|meta_height=325|meta=7|lang=en|pk=B7D8911C-5CC8-A9A3-35B0-554ACEE604DA|at=40|cdn_url=https%3A%2F%2Fclient-api.arkoselabs.com%2Fcdn%2Ffc|lurl=https%3A%2F%2Faudio-eu-west-1.arkoselabs.com|surl=https%3A%2F%2Fclient-api.arkoselabs.com
+submit success on page
+TimeoutError: Navigation timeout of 30000 ms exceeded
+    at d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\LifecycleWatcher.js:107:111
+    at async FrameManager.waitForFrameNavigation (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\FrameManager.js:167:23)
+    at async Frame.waitForNavigation (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\FrameManager.js:530:16)
+    at async Page.waitForNavigation (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Page.js:1229:16)
+    at async runOutlook (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\auto\browser\outlook.js:176:5)
+    at async module.exports (d:\A_Hoan_Code\new-code\deploy\automation-deploy\sbridge\runOutlook.js:3:12)
+    at async main (d:\A_Hoan_Code\new-code\deploy\automation-deploy\main\runlistoutlook.js:54:13)

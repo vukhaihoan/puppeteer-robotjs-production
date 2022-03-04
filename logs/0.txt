@@ -1,0 +1,11 @@
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 6221f6cdd104a6bc6b4a5339
+new profile name= PhamxsD322*
+oke
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 6221f6def596cf99ed121f7b
+new profile name= iRZZ8Tran59$
+oke
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 6221f7ded104a6c4e34a5491
+new profile name= Hoang0uj688?

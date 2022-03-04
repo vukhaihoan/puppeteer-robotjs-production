@@ -1,0 +1,4 @@
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 6221f6e0de519e282cc8487a
+new profile name= Bg3zOLe11?
+oke

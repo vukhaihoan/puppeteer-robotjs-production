@@ -1,0 +1,30 @@
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 622172ed43bcf580cc9de784
+new profile name= TranLra94%
+proxyStatus {
+  city: 'Quận Nam Từ Liêm',
+  status: 'success',
+  origin: '117.1.235.100',
+  country: 'VN',
+  timezone: 'Asia/Bangkok',
+  error: 'Proxy error'
+}
+Proxy is working
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_622172ed43bcf580cc9de784
+Error: Navigation failed because browser has disconnected!
+    at d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Connection.js:271:14)
+    at Connection._onMessage (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Connection.js:105:25)
+    at WebSocket.<anonymous> (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\ws\lib\event-target.js:199:18)
+    at WebSocket.emit (node:events:390:28)
+Uploading profile by signed URL to S3
+BUFFER SIZE 134892
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 6221837753ce42791ed2206d
+new profile name= J6gBCLe83$

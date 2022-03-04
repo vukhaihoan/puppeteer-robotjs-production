@@ -1,26 +1,29 @@
 const { axios, delay } = require("../utils");
 
-async function getCurrentProxy() {
+async function getCurrentProxyXproxy(port) {
     const { data } = await axios.get(
-        "http://100014837701498.ldproxy.com:14211/status?proxy=100014837701498.ldproxy.com:14309"
+        "http://100014837701498.ldproxy.com:14211/status?proxy=100014837701498.ldproxy.com:" + port
     );
     return data;
 }
-async function getNewProxy() {
+async function getNewProxyXproxy(port) {
     const { data } = await axios.get(
-        "http://100014837701498.ldproxy.com:14211/reset?proxy=100014837701498.ldproxy.com:14309"
+        "http://100014837701498.ldproxy.com:14211/reset?proxy=100014837701498.ldproxy.com:" + port
     );
     return data;
 }
 
-async function xProxy() {
-    const current = await getCurrentProxy();
+async function main() {
+    const current = await getCurrentProxyXproxy();
     console.log(current);
-    const status = await getNewProxy();
+    const status = await getNewProxyXproxy();
     console.log(status);
     await delay(3800);
-    const newProxy = await getCurrentProxy();
+    const newProxy = await getCurrentProxyXproxy();
     console.log(newProxy);
 }
-xProxy();
-module.exports = xProxy;
+// main();
+module.exports = {
+    getCurrentProxyXproxy,
+    getNewProxyXproxy,
+};

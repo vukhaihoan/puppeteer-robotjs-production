@@ -1,4 +1,4 @@
-const { delay, rn, axios } = require("../../utils");
+const { delay, rn, axios, goto } = require("../../utils");
 const launchProfileGologin = require("../../intial/launchProfileGologin");
 const puppeteer = require("puppeteer-extra");
 const StealthPlugin = require("puppeteer-extra-plugin-stealth");
@@ -12,8 +12,8 @@ const {
 const { createCursor, installMouseHelper } = require("ghost-cursor");
 puppeteer.use(StealthPlugin());
 puppeteer.use(adblocker());
-async function runOutlook(profileId, user) {
-    const { ORBITA_BROWSER, params, env, GL } = await launchProfileGologin(profileId);
+async function runOutlook(profileId, user, gologin) {
+    const { ORBITA_BROWSER, params, env, GL } = gologin;
     params.push("--profile-directory=Default");
     const browser = await puppeteer.launch({
         headless: false,
@@ -30,10 +30,14 @@ async function runOutlook(profileId, user) {
     });
     await page.type("input[name=q]", "hotmail", { delay: 100 });
     await delay(1000);
-    await page.click("input[name=btnK]", { delay: 100 });
+    // await page.click("input[name=btnK]", { delay: 100 });
+    await page.keyboard.press("Enter");
+
     await page.waitForNavigation({
         waitUntil: "networkidle0",
+        timeout: 0,
     });
+
     await page.waitForSelector('a[href="https://outlook.live.com/"] > h3');
     await page.click('a[href="https://outlook.live.com/"]', { delay: 100 });
     await delay(rn(2000, 3000));
@@ -45,9 +49,14 @@ async function runOutlook(profileId, user) {
         await cratebuttonlist[1].click({ delay: 100 });
         console.log("trường hợp button không có nền trắng");
     }
-    await page.waitForNavigation({
-        waitUntil: "networkidle0",
-    });
+    try {
+        await page.waitForNavigation({
+            waitUntil: "networkidle0",
+        });
+    } catch (error) {
+        console.log("error", error);
+    }
+
     await delay(rn(500, 1000));
     await page.waitForSelector("#MemberName");
     await page.click("#MemberName", { delay: 100 });
@@ -109,38 +118,54 @@ async function runOutlook(profileId, user) {
     await page.waitForSelector("#iSignupAction");
     await page.click("#iSignupAction", { delay: 100 });
     await delay(rn(4000, 5000));
-    const elementHandle = await page.$("#enforcementFrame");
-    const frame = await elementHandle.contentFrame();
-    const createTask = await axios.post("https://api.anycaptcha.com/createTask", {
-        clientKey: process.env.ANYCAPTCHA_KEY,
-        task: {
-            type: "FunCaptchaTaskProxyless",
-            websitePublicKey: "B7D8911C-5CC8-A9A3-35B0-554ACEE604DA",
-            websiteURL: page.url(),
-        },
-    });
-    const { taskId } = createTask.data;
-    const result = await axios.post("https://api.anycaptcha.com/getTaskResult", {
-        clientKey: process.env.ANYCAPTCHA_KEY,
-        taskId: taskId,
-    });
-    const token = result.data.solution.token;
-    const submitToken = await frame.evaluate((token) => {
-        var anyCaptchaToken = token;
-        let script = document.createElement("SCRIPT");
-        script.append(
-            'function AnyCaptchaSubmit(token) { parent.postMessage(JSON.stringify({ eventId: "challenge-complete", payload: { sessionToken: token } }), "*") }'
-        );
-        document.documentElement.appendChild(script);
-        AnyCaptchaSubmit(anyCaptchaToken);
-        return "submit success";
-    }, token);
+    async function submitAnyCaptcha() {
+        const elementHandle = await page.$("#enforcementFrame");
+        const frame = await elementHandle.contentFrame();
+        console.log("page url: ", page.url());
+        const createTask = await axios.post("https://api.anycaptcha.com/createTask", {
+            clientKey: process.env.ANYCAPTCHA_KEY,
+            task: {
+                type: "FunCaptchaTaskProxyless",
+                websitePublicKey: "B7D8911C-5CC8-A9A3-35B0-554ACEE604DA",
+                websiteURL: page.url(),
+            },
+        });
+        const { taskId } = createTask.data;
+        const result = await axios.post("https://api.anycaptcha.com/getTaskResult", {
+            clientKey: process.env.ANYCAPTCHA_KEY,
+            taskId: taskId,
+        });
+        const token = result.data.solution.token;
+        console.log("token: ", token);
+        const submitToken = await frame.evaluate((token) => {
+            var anyCaptchaToken = token;
+            let script = document.createElement("SCRIPT");
+            script.append(
+                'function AnyCaptchaSubmit(token) { parent.postMessage(JSON.stringify({ eventId: "challenge-complete", payload: { sessionToken: token } }), "*") }'
+            );
+            document.documentElement.appendChild(script);
+            AnyCaptchaSubmit(anyCaptchaToken);
+            return "submit success on page";
+        }, token);
 
-    console.log(submitToken);
-    await page.waitForSelector("#idSIButton9", {
-        timeout: 120 * 1000,
-        visible: true,
-    });
+        console.log(submitToken);
+    }
+    async function condition() {
+        let success = true;
+        try {
+            await page.waitForSelector("#idSIButton9", {
+                timeout: 30 * 1000,
+                visible: true,
+            });
+        } catch (error) {
+            console.log("try to re submit captcha");
+            success = false;
+        }
+        return !success;
+    }
+
+    await goto(submitAnyCaptcha, condition, 3);
+
     await delay(rn(1000, 1500));
     await page.click("#KmsiCheckboxField", { delay: 100 });
     await delay(rn(1000, 2000));
@@ -148,6 +173,7 @@ async function runOutlook(profileId, user) {
     await page.setDefaultTimeout(30000);
     await page.waitForNavigation({
         waitUntil: "networkidle0",
+        timeout: 0,
     });
     await delay(rn(4000, 5000));
     await page.waitForSelector('span[title="no-reply@microsoft.com"]');

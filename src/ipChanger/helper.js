@@ -2,7 +2,7 @@ const util = require("util");
 const exec = util.promisify(require("child_process").exec);
 // const isAdmin = require("is-admin");
 const { axios } = require("../utils");
-async function checkConnection() {
+async function checkConnectionLocalhost() {
     const { stdout, stderr } = await exec("ping 192.168.1.1");
     // if stdout
     if (stdout) {
@@ -49,82 +49,72 @@ async function switchAdapter(onoff, namep) {
     }
     return status;
 }
-async function checkIp(onlyv4) {
-    const resv4 = await axios.get("http://v4.ipv6-test.com/api/myip.php");
-    console.log("ipv4 : " + resv4.data);
-    const resv4v6 = await axios.get("http://v4v6.ipv6-test.com/api/myip.php");
-    console.log("ipv4v6 : " + resv4v6.data);
-    if (onlyv4) {
-        return {
-            ipv4: resv4.data,
-            ipv4v6: resv4v6.data,
-        };
-    }
-    const resv6 = await axios.get("http://v6.ipv6-test.com/api/myip.php");
-    console.log("ipv6 : " + resv6.data);
-    return {
-        ipv4: resv4.data,
-        ipv6: resv6.data,
-        ipv4v6: resv4v6.data,
+async function checkIpLocalhost({ v4 = true, v6 = true }) {
+    let ipList = {
+        ipv4: null,
+        ipv6: null,
+        ipv4v6: null,
     };
+    const resv4v6 = await axios.get("http://v4v6.ipv6-test.com/api/myip.php");
+    ipList.ipv4v6 = resv4v6.data;
+    if (v4) {
+        const resv4 = await axios.get("http://v4.ipv6-test.com/api/myip.php");
+        ipList.ipv4 = resv4.data;
+    }
+    if (v6) {
+        const resv6 = await axios.get("http://v6.ipv6-test.com/api/myip.php");
+        ipList.ipv6 = resv6.data;
+    }
+    return ipList;
 }
 function block4v6(ipv6) {
     return ipv6.split(":")[3];
 }
-async function compareIp(fullchangeCallback, onlyv4) {
-    const IpBeforeChange = await checkIp(onlyv4);
+async function compareIpLocalhost(fullchangeCallback, { v4, v6 }) {
+    const IpBeforeChange = await checkIpLocalhost({ v4, v6 });
     await fullchangeCallback();
-    const IpAfterChange = await checkIp(onlyv4);
-    let result = {
+    const IpAfterChange = await checkIpLocalhost({ v4, v6 });
+    let ipChangerCompareResult = {
         v4Changed: false,
         v6Changed: false,
-        success: false,
+        message: "BOTH_V4_V6",
     };
-    if (IpBeforeChange.ipv4 != IpAfterChange.ipv4) {
-        result.v4Changed = true;
-        console.log("ipv4 changed");
-    } else {
-        console.log("ipv4 not changed");
-    }
-    if (onlyv4) {
-        delete result.v6Changed;
-        if (result.v4Changed) {
-            result.success = true;
-            console.log("only v4 changed success");
+    if (v4) {
+        if (IpBeforeChange.ipv4 != IpAfterChange.ipv4) {
+            ipChangerCompareResult.v4Changed = true;
+            console.log("ipv4 changed");
         } else {
-            result.success = false;
-            console.log("only v4 changed failed");
+            console.log("ipv4 not changed");
         }
     } else {
+        ipChangerCompareResult.message = "NO_V4";
+    }
+    if (v6) {
         if (
             IpBeforeChange.ipv6 != IpAfterChange.ipv6 &&
             block4v6(IpBeforeChange.ipv6) != block4v6(IpAfterChange.ipv6)
         ) {
-            result.v6Changed = true;
+            ipChangerCompareResult.v6Changed = true;
             console.log("ipv6 changed");
         } else {
             console.log("ipv6 not changed");
         }
-        if (result.v4Changed && result.v6Changed) {
-            result.success = true;
-            console.log("succes change ip");
-        } else {
-            console.log("failed change ip");
-        }
+    } else {
+        ipChangerCompareResult.message = "NO_V6";
     }
 
-    return result;
+    return ipChangerCompareResult;
 }
 /**
  * example:
- * await checkConnection()
- * await checkIp()
+ * await checkConnectionLocalhost()
+ * await checkIpLocalhost()
  * console.log(await switchAdapter(0, "Ethernet"));
  * console.log(await switchAdapter(1, "Ethernet"));
  */
 module.exports = {
-    checkConnection,
-    checkIp,
+    checkConnectionLocalhost,
+    checkIpLocalhost,
     switchAdapter,
-    compareIp,
+    compareIpLocalhost,
 };

@@ -27,7 +27,7 @@ async function goto(callback, condition, retryAmount = 5) {
         break;
     }
     if (check) {
-        throw new Error("Could not find image after 5 attempts");
+        throw new Error(`Failed to submit captcha after ${retryAmount} attempts`);
     }
 }
 // let status = false;

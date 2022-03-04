@@ -1,0 +1,636 @@
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 621f816dde2d049be54916c8
+new profile name= EkBBDVu74#
+Proxy is working
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_621f816dde2d049be54916c8
+trường hợp button có nền trắng
+không có fail Link -> mail true
+submit success
+Uploading profile by signed URL to S3
+BUFFER SIZE 295782
+Profile has been uploaded to S3 successfully
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 621f81db8c6dd4ecd59d35aa
+new profile name= 3509TranNaN#
+Proxy is working
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_621f81db8c6dd4ecd59d35aa
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 621f8570b8a93f04036f85ee
+new profile name= Lycoc72%
+Proxy is working
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_621f8570b8a93f04036f85ee
+trường hợp button có nền trắng
+không có fail Link -> mail true
+submit success
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 621f868749806b071051aa75
+new profile name= Tangyeh911$
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 621f869164555cbc42727395
+new profile name= NguyengzU105@
+Proxy is working
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_621f869164555cbc42727395
+trường hợp button có nền trắng
+không có fail Link -> mail true
+submit success on page
+try to re submit captcha
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 621f875a1f0cc0d081d2b313
+new profile name= PhamHCh253@
+Proxy is working
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_621f875a1f0cc0d081d2b313
+trường hợp button có nền trắng
+không có fail Link -> mail true
+submit success on page
+try to re submit captcha
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 621f886b1f0cc03498d2b45a
+new profile name= 8860DoNaN@
+Proxy is working
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_621f886b1f0cc03498d2b45a
+trường hợp button có nền trắng
+không có fail Link -> mail true
+submit success on page
+Uploading profile by signed URL to S3
+BUFFER SIZE 6837527
+Profile has been uploaded to S3 successfully
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 621f88dae77b7b70b15d9e96
+new profile name= 1331DoNaN$
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 621f8a14ccff5a40821acad3
+new profile name= l9LzHHuynh21#
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+Proxy is working
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_621f8a14ccff5a40821acad3
+trường hợp button có nền trắng
+không có fail Link -> mail true
+submit success on page
+Uploading profile by signed URL to S3
+BUFFER SIZE 7104523
+Profile has been uploaded to S3 successfully
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 621f8a8743e46819a4cd577b
+new profile name= cuDOBTruong33?
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_621f8a8743e46819a4cd577b
+Proxy is working
+trường hợp button có nền trắng
+không có fail Link -> mail true
+submit success on page
+Uploading profile by signed URL to S3
+BUFFER SIZE 6932433
+Profile has been uploaded to S3 successfully
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 621f8af6a8b6e0207875ddbd
+new profile name= 8041PhamNaN@
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+proxy failed, try to re check
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_621f8af6a8b6e0207875ddbd
+Proxy is working
+retry find image attempt: 1
+trường hợp button không có nền trắng
+không có fail Link -> mail true
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 622096df9ea85bda6a4bcf90
+new profile name= 9785VuNaN@
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+Proxy is working
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_622096df9ea85bda6a4bcf90
+trường hợp button có nền trắng
+không có fail Link -> mail true
+token:  945622097100e4d47.3933950404|r=ap-southeast-1|metabgclr=%23ffffff|maintxtclr=%231B1B1B|mainbgclr=%23ffffff|guitextcolor=%23747474|metaiconclr=%23757575|meta_height=325|meta=7|lang=en|pk=B7D8911C-5CC8-A9A3-35B0-554ACEE604DA|at=40|ag=101|cdn_url=https%3A%2F%2Fclient-api.arkoselabs.com%2Fcdn%2Ffc|lurl=https%3A%2F%2Faudio-ap-southeast-1.arkoselabs.com|surl=https%3A%2F%2Fclient-api.arkoselabs.com
+submit success on page
+Uploading profile by signed URL to S3
+BUFFER SIZE 303779
+Profile has been uploaded to S3 successfully
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 6220974d1b56f13015e9496e
+new profile name= CcrbXDang78!
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+Proxy Error. Check it and try again.
+Trace: SocksClientError: Socks5 proxy rejected connection - ConnectionRefused
+    at SocksClient.closeSocket (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\[4msocks[24m\build\client\socksclient.js:388:32)
+    at SocksClient.handleSocks5FinalHandshakeResponse (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\[4msocks[24m\build\client\socksclient.js:636:18)
+    at SocksClient.processData (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\[4msocks[24m\build\client\socksclient.js:332:22)
+    at SocksClient.onDataReceivedHandler (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\[4msocks[24m\build\client\socksclient.js:305:14)
+    at Socket.onDataReceived (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\[4msocks[24m\build\client\socksclient.js:221:46)
+[90m    at Socket.emit (node:events:390:28)[39m
+[90m    at addChunk (node:internal/streams/readable:315:12)[39m
+[90m    at readableAddChunk (node:internal/streams/readable:289:9)[39m
+[90m    at Socket.Readable.push (node:internal/streams/readable:228:10)[39m
+[90m    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)[39m {
+  options: {
+    proxy: { host: [32m'100014837701498.ldproxy.com'[39m, port: [33m15309[39m, type: [33m5[39m },
+    command: [32m'connect'[39m,
+    destination: { host: [32m'time.gologin.com'[39m, port: [33m443[39m },
+    timeout: [33m10000[39m
+  }
+}
+    at d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\intial\launchProfileGologin.js:11:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async launchProfile (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\intial\launchProfileGologin.js:10:31)
+    at async runOutlook (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\auto\browser\outlook.js:16:49)
+    at async module.exports (d:\A_Hoan_Code\new-code\deploy\automation-deploy\sbridge\runOutlook.js:3:12)
+    at async main (d:\A_Hoan_Code\new-code\deploy\automation-deploy\main\runlistoutlook.js:38:13)
+Invalid status
+TypeError: Cannot destructure property 'ORBITA_BROWSER' of '(intermediate value)' as it is undefined.
+    at runOutlook (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\auto\browser\outlook.js:16:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async module.exports (d:\A_Hoan_Code\new-code\deploy\automation-deploy\sbridge\runOutlook.js:3:12)
+    at async main (d:\A_Hoan_Code\new-code\deploy\automation-deploy\main\runlistoutlook.js:38:13)
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+proxy failed, try to re check
+profile id= 6220975043bcf5894f9d0cf4
+new profile name= HoopE326%
+proxy failed, try to re check
+retry find image attempt: 1
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+Proxy Error. Check it and try again.
+Trace: SocksClientError: Socks5 proxy rejected connection - ConnectionRefused
+    at SocksClient.closeSocket (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\[4msocks[24m\build\client\socksclient.js:388:32)
+    at SocksClient.handleSocks5FinalHandshakeResponse (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\[4msocks[24m\build\client\socksclient.js:636:18)
+    at SocksClient.processData (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\[4msocks[24m\build\client\socksclient.js:332:22)
+    at SocksClient.onDataReceivedHandler (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\[4msocks[24m\build\client\socksclient.js:305:14)
+    at Socket.onDataReceived (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\[4msocks[24m\build\client\socksclient.js:221:46)
+[90m    at Socket.emit (node:events:390:28)[39m
+[90m    at addChunk (node:internal/streams/readable:315:12)[39m
+[90m    at readableAddChunk (node:internal/streams/readable:289:9)[39m
+[90m    at Socket.Readable.push (node:internal/streams/readable:228:10)[39m
+[90m    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)[39m {
+  options: {
+    proxy: { host: [32m'100014837701498.ldproxy.com'[39m, port: [33m15309[39m, type: [33m5[39m },
+    command: [32m'connect'[39m,
+    destination: { host: [32m'time.gologin.com'[39m, port: [33m443[39m },
+    timeout: [33m10000[39m
+  }
+}
+    at d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\intial\launchProfileGologin.js:11:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async launchProfile (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\intial\launchProfileGologin.js:10:31)
+    at async runOutlook (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\auto\browser\outlook.js:16:49)
+    at async module.exports (d:\A_Hoan_Code\new-code\deploy\automation-deploy\sbridge\runOutlook.js:3:12)
+    at async main (d:\A_Hoan_Code\new-code\deploy\automation-deploy\main\runlistoutlook.js:38:13)
+Invalid status
+TypeError: Cannot destructure property 'ORBITA_BROWSER' of '(intermediate value)' as it is undefined.
+    at runOutlook (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\auto\browser\outlook.js:16:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async module.exports (d:\A_Hoan_Code\new-code\deploy\automation-deploy\sbridge\runOutlook.js:3:12)
+    at async main (d:\A_Hoan_Code\new-code\deploy\automation-deploy\main\runlistoutlook.js:38:13)
+proxy failed, try to re check
+proxy failed, try to re check
+retry find image attempt: 1
+proxy failed, try to re check
+retry find image attempt: 2
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 6220985970960e625f9a943a
+new profile name= Huynho0p182@
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_6220985970960e625f9a943a
+Proxy is working
+trường hợp button không có nền trắng
+không có fail Link -> mail true
+token:  9126220989a071a80.8147221705|r=eu-west-1|metabgclr=%23ffffff|maintxtclr=%231B1B1B|mainbgclr=%23ffffff|guitextcolor=%23747474|metaiconclr=%23757575|meta_height=325|meta=7|lang=en|pk=B7D8911C-5CC8-A9A3-35B0-554ACEE604DA|at=40|ag=101|cdn_url=https%3A%2F%2Fclient-api.arkoselabs.com%2Fcdn%2Ffc|lurl=https%3A%2F%2Faudio-eu-west-1.arkoselabs.com|surl=https%3A%2F%2Fclient-api.arkoselabs.com
+submit success on page
+Uploading profile by signed URL to S3
+BUFFER SIZE 313234
+Profile has been uploaded to S3 successfully
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 622098d03b389018bb6a1bbd
+new profile name= NLo2JLe40?
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_622098d03b389018bb6a1bbd
+Proxy is working
+trường hợp button không có nền trắng
+không có fail Link -> mail true
+token:  726220990ccf4c86.8730565805|r=eu-west-1|metabgclr=%23ffffff|maintxtclr=%231B1B1B|mainbgclr=%23ffffff|guitextcolor=%23747474|metaiconclr=%23757575|meta_height=325|meta=7|lang=en|pk=B7D8911C-5CC8-A9A3-35B0-554ACEE604DA|at=40|ag=101|cdn_url=https%3A%2F%2Fclient-api.arkoselabs.com%2Fcdn%2Ffc|lurl=https%3A%2F%2Faudio-eu-west-1.arkoselabs.com|surl=https%3A%2F%2Fclient-api.arkoselabs.com
+submit success on page
+Uploading profile by signed URL to S3
+BUFFER SIZE 6935807
+Profile has been uploaded to S3 successfully
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 62209955566ef8ccd8140c1c
+new profile name= 0kkPwDuong60$
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_62209955566ef8ccd8140c1c
+Proxy is working
+trường hợp button không có nền trắng
+TimeoutError: waiting for selector `#MemberName` failed: timeout 30000ms exceeded
+    at new WaitTask (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\DOMWorld.js:528:34)
+    at DOMWorld.waitForSelectorInPage (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\DOMWorld.js:432:26)
+    at Object.internalHandler.waitFor (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\QueryHandler.js:31:77)
+    at DOMWorld.waitForSelector (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\DOMWorld.js:323:29)
+    at Frame.waitForSelector (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\FrameManager.js:936:51)
+    at Page.waitForSelector (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Page.js:2359:33)
+    at runOutlook (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\auto\browser\outlook.js:58:16)
+    at async module.exports (d:\A_Hoan_Code\new-code\deploy\automation-deploy\sbridge\runOutlook.js:3:12)
+    at async main (d:\A_Hoan_Code\new-code\deploy\automation-deploy\main\runlistoutlook.js:39:13)
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 62209ff99ea85b40954bdada
+new profile name= DangRmL683%
+ReferenceError: launchProfileGologin is not defined
+    at main (d:\A_Hoan_Code\new-code\deploy\automation-deploy\main\runlistoutlook.js:40:13)
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 6220a06160e26a001feffdd1
+new profile name= 5474NguyenNaN#
+proxyStatus {
+  city: 'Quận Nam Từ Liêm',
+  status: 'success',
+  origin: '116.107.225.174',
+  country: 'VN',
+  timezone: 'Asia/Bangkok',
+  error: 'Proxy error'
+}
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 6220a0899ea85b3b064bdb79
+new profile name= CaoGw9194%
+proxyStatus {
+  city: 'Quận Nam Từ Liêm',
+  status: 'success',
+  origin: '116.107.225.174',
+  country: 'VN',
+  timezone: 'Asia/Bangkok',
+  error: 'Proxy error'
+}
+Proxy is working
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_6220a0899ea85b3b064bdb79
+TypeError: Cannot destructure property 'ORBITA_BROWSER' of 'gologin' as it is undefined.
+    at runOutlook (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\auto\browser\outlook.js:16:13)
+    at module.exports (d:\A_Hoan_Code\new-code\deploy\automation-deploy\sbridge\runOutlook.js:3:18)
+    at main (d:\A_Hoan_Code\new-code\deploy\automation-deploy\main\runlistoutlook.js:43:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Uploading profile by signed URL to S3
+BUFFER SIZE 9367
+Profile has been uploaded to S3 successfully
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 6220a0db35ebba7620a72ab6
+new profile name= 6581DinhNaN@
+proxyStatus {
+  city: 'Quận Nam Từ Liêm',
+  status: 'success',
+  origin: '116.107.225.174',
+  country: 'VN',
+  timezone: 'Asia/Bangkok',
+  error: 'Proxy error'
+}
+Proxy is working
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_6220a0db35ebba7620a72ab6
+TypeError: Cannot destructure property 'ORBITA_BROWSER' of 'gologin' as it is undefined.
+    at runOutlook (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\auto\browser\outlook.js:16:13)
+    at module.exports (d:\A_Hoan_Code\new-code\deploy\automation-deploy\sbridge\runOutlook.js:3:18)
+    at main (d:\A_Hoan_Code\new-code\deploy\automation-deploy\main\runlistoutlook.js:43:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Uploading profile by signed URL to S3
+BUFFER SIZE 9349
+Profile has been uploaded to S3 successfully
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 6220a105ac1e35bdce1e5f21
+new profile name= BOE54Nguyen39@
+proxyStatus {
+  city: 'Quận Nam Từ Liêm',
+  status: 'success',
+  origin: '117.1.232.174',
+  country: 'VN',
+  timezone: 'Asia/Bangkok',
+  error: 'Proxy error'
+}
+Proxy is working
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_6220a105ac1e35bdce1e5f21
+gologin {
+  ORBITA_BROWSER: 'C:\\Users\\vukhaihoan\\.gologin\\browser\\orbita-browser\\chrome.exe',
+  params: [
+    '--user-data-dir=C:\\Users\\VUKHAI~1\\AppData\\Local\\Temp\\gologin_profile_6220a105ac1e35bdce1e5f21',
+    '--password-store=basic',
+    '--tz=Asia/Bangkok',
+    '--lang=en-US',
+    '--font-masking-mode=2',
+    '--proxy-server=socks5://100014837701498.ldproxy.com:15309',
+    '--host-resolver-rules="MAP * 0.0.0.0 , EXCLUDE 100014837701498.ldproxy.com"'
+  ],
+  env: {
+    ALLUSERSPROFILE: 'C:\\ProgramData',
+    ANYCAPTCHA_KEY: '0c953269633d43478dc84f6468b0378e',
+    APPDATA: 'C:\\Users\\vukhaihoan\\AppData\\Roaming',
+    CHROME_CRASHPAD_PIPE_NAME: '\\\\.\\pipe\\crashpad_7696_UOVCKMLBMVMYJKRC',
+    CommonProgramFiles: 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files',
+    CommonProgramW6432: 'C:\\Program Files\\Common Files',
+    COMPUTERNAME: '01A69E33789EA1E',
+    ComSpec: 'C:\\Windows\\system32\\cmd.exe',
+    CUTTOFF: '3',
+    DriverData: 'C:\\Windows\\System32\\Drivers\\DriverData',
+    FPS_BROWSER_APP_PROFILE_STRING: 'Internet Explorer',
+    FPS_BROWSER_USER_PROFILE_STRING: 'Default',
+    GOLOGIN_TOKEN: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjE3NjgyNTViOGFkMDRiNGFiNDIyN2EiLCJ0eXBlIjoiZGV2Iiwiand0aWQiOiI2MjE3NjgzNzcxOWQzMzlmZjFiNzE3NTAifQ.3AUfA13BeoEBg_UokJYPgC0qfoulvnIH-o79h-1s-Pc',
+    HOMEDRIVE: 'C:',
+    HOMEPATH: '\\Users\\vukhaihoan',
+    INFURA_PROVIDER: 'https://rinkeby.infura.io/v3/c96085aa70f54dfc82955adf21f20532',
+    LOCALAPPDATA: 'C:\\Users\\vukhaihoan\\AppData\\Local',
+    LOGONSERVER: '\\\\01A69E33789EA1E',
+    MINPROXY_TOKEN: 'XM6lek0OPWdfFFfNmqd8IBBuOzxgyxOe',
+    MONGODB_URL: 'mongodb+srv://vukhaihoan:1632002hoandz@cluster0.krgfr.mongodb.net/nftproject?retryWrites=true&w=majority',
+    NODE_GYP_FORCE_PYTHON: 'C:\\Users\\vukhaihoan\\AppData\\Local\\Programs\\Python\\Python39\\python.exe',
+    NUMBER_OF_PROCESSORS: '4',
+    OneDrive: 'C:\\Users\\vukhaihoan\\OneDrive - actvn.edu.vn',
+    OneDriveCommercial: 'C:\\Users\\vukhaihoan\\OneDrive - actvn.edu.vn',
+    OneDriveConsumer: 'C:\\Users\\vukhaihoan\\OneDrive',
+    ORIGINAL_XDG_CURRENT_DESKTOP: 'undefined',
+    OS: 'Windows_NT',
+    Path: 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\PuTTY\\;C:\\Users\\vukhaihoan\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\;C:\\Users\\vukhaihoan\\AppData\\Local\\Programs\\Python\\Python39\\;C:\\Users\\vukhaihoan\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\vukhaihoan\\AppData\\Roaming\\npm;C:\\Users\\vukhaihoan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\vukhaihoan\\.dotnet\\tools;E:\\code\\changeiffo;;C:\\Users\\vukhaihoan\\AppData\\Local\\Programs\\Fiddler',
+    PATHEXT: '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    PORT: '8000',
+    PROCESSOR_ARCHITECTURE: 'AMD64',
+    PROCESSOR_IDENTIFIER: 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel',
+    PROCESSOR_LEVEL: '6',
+    PROCESSOR_REVISION: '4e03',
+    ProgramData: 'C:\\ProgramData',
+    ProgramFiles: 'C:\\Program Files',
+    'ProgramFiles(x86)': 'C:\\Program Files (x86)',
+    ProgramW6432: 'C:\\Program Files',
+    PROMPT: '$P$G',
+    PSModulePath: 'C:\\Program Files (x86)\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\AutoIt3\\AutoItX',
+    PUBLIC: 'C:\\Users\\Public',
+    SESSIONNAME: 'Console',
+    SystemDrive: 'C:',
+    SystemRoot: 'C:\\Windows',
+    TEMP: 'C:\\Users\\VUKHAI~1\\AppData\\Local\\Temp',
+    TMP: 'C:\\Users\\VUKHAI~1\\AppData\\Local\\Temp',
+    USERDOMAIN: '01A69E33789EA1E',
+    USERDOMAIN_ROAMINGPROFILE: '01A69E33789EA1E',
+    USERNAME: 'Vu Hoan',
+    USERPROFILE: 'C:\\Users\\vukhaihoan',
+    windir: 'C:\\Windows',
+    TERM_PROGRAM: 'vscode',
+    TERM_PROGRAM_VERSION: '1.64.2',
+    LANG: 'en_US.UTF-8',
+    COLORTERM: 'truecolor',
+    VSCODE_GIT_IPC_HANDLE: '\\\\.\\pipe\\vscode-git-a04b9651bf-sock',
+    GIT_ASKPASS: 'c:\\Users\\vukhaihoan\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh',
+    VSCODE_GIT_ASKPASS_NODE: 'C:\\Users\\vukhaihoan\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe',
+    VSCODE_GIT_ASKPASS_EXTRA_ARGS: '--ms-enable-electron-run-as-node',
+    VSCODE_GIT_ASKPASS_MAIN: 'c:\\Users\\vukhaihoan\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js',
+    TZ: 'Asia/Bangkok'
+  },
+  GL: GoLogin {
+    is_remote: false,
+    access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjE3NjgyNTViOGFkMDRiNGFiNDIyN2EiLCJ0eXBlIjoiZGV2Iiwiand0aWQiOiI2MjE3NjgzNzcxOWQzMzlmZjFiNzE3NTAifQ.3AUfA13BeoEBg_UokJYPgC0qfoulvnIH-o79h-1s-Pc',
+    profile_id: '6220a105ac1e35bdce1e5f21',
+    password: undefined,
+    extra_params: undefined,
+    executablePath: undefined,
+    vnc_port: undefined,
+    fontsMasking: true,
+    is_active: true,
+    is_stopping: false,
+    differentOs: false,
+    profileOs: 'win',
+    tmpdir: 'C:\\Users\\VUKHAI~1\\AppData\\Local\\Temp',
+    autoUpdateBrowser: false,
+    browserChecker: BrowserChecker {},
+    uploadCookiesToServer: false,
+    writeCookesFromServer: true,
+    remote_debugging_port: 0,
+    timezone: undefined,
+    cookiesFilePath: 'C:\\Users\\VUKHAI~1\\AppData\\Local\\Temp\\gologin_profile_6220a105ac1e35bdce1e5f21\\Default\\Cookies',
+    profile_zip_path: 'C:\\Users\\VUKHAI~1\\AppData\\Local\\Temp\\gologin_6220a105ac1e35bdce1e5f21.zip',
+    language: 'en-US,en;q=0.9,cs;q=0.8',
+    resolution: { width: 1280, height: 720 },
+    proxy: {
+      mode: 'socks5',
+      host: '100014837701498.ldproxy.com',
+      port: 15309
+    },
+    _tz: {
+      ip: '117.1.232.174',
+      timezone: 'Asia/Bangkok',
+      accuracy: 100,
+      ll: [Array],
+      country: 'VN',
+      city: 'Quận Nam Từ Liêm',
+      stateProv: '',
+      proxyType: ''
+    },
+    port: 25007
+  }
+}
+TypeError: Cannot destructure property 'ORBITA_BROWSER' of 'gologin' as it is undefined.
+    at runOutlook (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\auto\browser\outlook.js:16:13)
+    at module.exports (d:\A_Hoan_Code\new-code\deploy\automation-deploy\sbridge\runOutlook.js:3:18)
+    at main (d:\A_Hoan_Code\new-code\deploy\automation-deploy\main\runlistoutlook.js:44:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Uploading profile by signed URL to S3
+BUFFER SIZE 9338
+Profile has been uploaded to S3 successfully
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 6220a1918bfc9456fb43fafa
+new profile name= NguyenlnL960$
+proxyStatus {
+  city: 'Quận Nam Từ Liêm',
+  status: 'success',
+  origin: '117.1.230.121',
+  country: 'VN',
+  timezone: 'Asia/Bangkok',
+  error: 'Proxy error'
+}
+Proxy is working
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_6220a1918bfc9456fb43fafa
+gologin {
+  ORBITA_BROWSER: 'C:\\Users\\vukhaihoan\\.gologin\\browser\\orbita-browser\\chrome.exe',
+  params: [
+    '--user-data-dir=C:\\Users\\VUKHAI~1\\AppData\\Local\\Temp\\gologin_profile_6220a1918bfc9456fb43fafa',
+    '--password-store=basic',
+    '--tz=Asia/Bangkok',
+    '--lang=en-GB',
+    '--font-masking-mode=2',
+    '--proxy-server=socks5://100014837701498.ldproxy.com:15309',
+    '--host-resolver-rules="MAP * 0.0.0.0 , EXCLUDE 100014837701498.ldproxy.com"'
+  ],
+  env: {
+    ALLUSERSPROFILE: 'C:\\ProgramData',
+    ANYCAPTCHA_KEY: '0c953269633d43478dc84f6468b0378e',
+    APPDATA: 'C:\\Users\\vukhaihoan\\AppData\\Roaming',
+    CHROME_CRASHPAD_PIPE_NAME: '\\\\.\\pipe\\crashpad_7696_UOVCKMLBMVMYJKRC',
+    CommonProgramFiles: 'C:\\Program Files\\Common Files',
+    'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files',
+    CommonProgramW6432: 'C:\\Program Files\\Common Files',
+    COMPUTERNAME: '01A69E33789EA1E',
+    ComSpec: 'C:\\Windows\\system32\\cmd.exe',
+    CUTTOFF: '3',
+    DriverData: 'C:\\Windows\\System32\\Drivers\\DriverData',
+    FPS_BROWSER_APP_PROFILE_STRING: 'Internet Explorer',
+    FPS_BROWSER_USER_PROFILE_STRING: 'Default',
+    GOLOGIN_TOKEN: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjE3NjgyNTViOGFkMDRiNGFiNDIyN2EiLCJ0eXBlIjoiZGV2Iiwiand0aWQiOiI2MjE3NjgzNzcxOWQzMzlmZjFiNzE3NTAifQ.3AUfA13BeoEBg_UokJYPgC0qfoulvnIH-o79h-1s-Pc',
+    HOMEDRIVE: 'C:',
+    HOMEPATH: '\\Users\\vukhaihoan',
+    INFURA_PROVIDER: 'https://rinkeby.infura.io/v3/c96085aa70f54dfc82955adf21f20532',
+    LOCALAPPDATA: 'C:\\Users\\vukhaihoan\\AppData\\Local',
+    LOGONSERVER: '\\\\01A69E33789EA1E',
+    MINPROXY_TOKEN: 'XM6lek0OPWdfFFfNmqd8IBBuOzxgyxOe',
+    MONGODB_URL: 'mongodb+srv://vukhaihoan:1632002hoandz@cluster0.krgfr.mongodb.net/nftproject?retryWrites=true&w=majority',
+    NODE_GYP_FORCE_PYTHON: 'C:\\Users\\vukhaihoan\\AppData\\Local\\Programs\\Python\\Python39\\python.exe',
+    NUMBER_OF_PROCESSORS: '4',
+    OneDrive: 'C:\\Users\\vukhaihoan\\OneDrive - actvn.edu.vn',
+    OneDriveCommercial: 'C:\\Users\\vukhaihoan\\OneDrive - actvn.edu.vn',
+    OneDriveConsumer: 'C:\\Users\\vukhaihoan\\OneDrive',
+    ORIGINAL_XDG_CURRENT_DESKTOP: 'undefined',
+    OS: 'Windows_NT',
+    Path: 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files (x86)\\Bitvise SSH Client;C:\\Program Files\\PuTTY\\;C:\\Users\\vukhaihoan\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\;C:\\Users\\vukhaihoan\\AppData\\Local\\Programs\\Python\\Python39\\;C:\\Users\\vukhaihoan\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\vukhaihoan\\AppData\\Roaming\\npm;C:\\Users\\vukhaihoan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\vukhaihoan\\.dotnet\\tools;E:\\code\\changeiffo;;C:\\Users\\vukhaihoan\\AppData\\Local\\Programs\\Fiddler',
+    PATHEXT: '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+    PORT: '8000',
+    PROCESSOR_ARCHITECTURE: 'AMD64',
+    PROCESSOR_IDENTIFIER: 'Intel64 Family 6 Model 78 Stepping 3, GenuineIntel',
+    PROCESSOR_LEVEL: '6',
+    PROCESSOR_REVISION: '4e03',
+    ProgramData: 'C:\\ProgramData',
+    ProgramFiles: 'C:\\Program Files',
+    'ProgramFiles(x86)': 'C:\\Program Files (x86)',
+    ProgramW6432: 'C:\\Program Files',
+    PROMPT: '$P$G',
+    PSModulePath: 'C:\\Program Files (x86)\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\AutoIt3\\AutoItX',
+    PUBLIC: 'C:\\Users\\Public',
+    SESSIONNAME: 'Console',
+    SystemDrive: 'C:',
+    SystemRoot: 'C:\\Windows',
+    TEMP: 'C:\\Users\\VUKHAI~1\\AppData\\Local\\Temp',
+    TMP: 'C:\\Users\\VUKHAI~1\\AppData\\Local\\Temp',
+    USERDOMAIN: '01A69E33789EA1E',
+    USERDOMAIN_ROAMINGPROFILE: '01A69E33789EA1E',
+    USERNAME: 'Vu Hoan',
+    USERPROFILE: 'C:\\Users\\vukhaihoan',
+    windir: 'C:\\Windows',
+    TERM_PROGRAM: 'vscode',
+    TERM_PROGRAM_VERSION: '1.64.2',
+    LANG: 'en_US.UTF-8',
+    COLORTERM: 'truecolor',
+    VSCODE_GIT_IPC_HANDLE: '\\\\.\\pipe\\vscode-git-a04b9651bf-sock',
+    GIT_ASKPASS: 'c:\\Users\\vukhaihoan\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh',
+    VSCODE_GIT_ASKPASS_NODE: 'C:\\Users\\vukhaihoan\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe',
+    VSCODE_GIT_ASKPASS_EXTRA_ARGS: '--ms-enable-electron-run-as-node',
+    VSCODE_GIT_ASKPASS_MAIN: 'c:\\Users\\vukhaihoan\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js',
+    TZ: 'Asia/Bangkok'
+  },
+  GL: GoLogin {
+    is_remote: false,
+    access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjE3NjgyNTViOGFkMDRiNGFiNDIyN2EiLCJ0eXBlIjoiZGV2Iiwiand0aWQiOiI2MjE3NjgzNzcxOWQzMzlmZjFiNzE3NTAifQ.3AUfA13BeoEBg_UokJYPgC0qfoulvnIH-o79h-1s-Pc',
+    profile_id: '6220a1918bfc9456fb43fafa',
+    password: undefined,
+    extra_params: undefined,
+    executablePath: undefined,
+    vnc_port: undefined,
+    fontsMasking: true,
+    is_active: true,
+    is_stopping: false,
+    differentOs: false,
+    profileOs: 'win',
+    tmpdir: 'C:\\Users\\VUKHAI~1\\AppData\\Local\\Temp',
+    autoUpdateBrowser: false,
+    browserChecker: BrowserChecker {},
+    uploadCookiesToServer: false,
+    writeCookesFromServer: true,
+    remote_debugging_port: 0,
+    timezone: undefined,
+    cookiesFilePath: 'C:\\Users\\VUKHAI~1\\AppData\\Local\\Temp\\gologin_profile_6220a1918bfc9456fb43fafa\\Default\\Cookies',
+    profile_zip_path: 'C:\\Users\\VUKHAI~1\\AppData\\Local\\Temp\\gologin_6220a1918bfc9456fb43fafa.zip',
+    language: 'en-GB,en-US;q=0.9,en;q=0.8',
+    resolution: { width: 1280, height: 720 },
+    proxy: {
+      mode: 'socks5',
+      host: '100014837701498.ldproxy.com',
+      port: 15309
+    },
+    _tz: {
+      ip: '117.1.230.121',
+      timezone: 'Asia/Bangkok',
+      accuracy: 100,
+      ll: [Array],
+      country: 'VN',
+      city: 'Quận Nam Từ Liêm',
+      stateProv: '',
+      proxyType: ''
+    },
+    port: 28788
+  }
+}
+Error: Navigation failed because browser has disconnected!
+    at d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\LifecycleWatcher.js:51:147
+    at d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\vendor\mitt\src\index.js:51:62
+    at Array.map (<anonymous>)
+    at Object.emit (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\vendor\mitt\src\index.js:51:43)
+    at CDPSession.emit (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\EventEmitter.js:72:22)
+    at CDPSession._onClosed (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Connection.js:271:14)
+    at Connection._onMessage (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Connection.js:105:25)
+    at WebSocket.<anonymous> (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\node\NodeWebSocketTransport.js:13:32)
+    at WebSocket.onMessage (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\ws\lib\event-target.js:199:18)
+    at WebSocket.emit (node:events:390:28)
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 6220a1d8566ef8215714169d
+new profile name= 3054NguyenNaN?
+proxyStatus {
+  city: 'Quận Nam Từ Liêm',
+  status: 'success',
+  origin: '117.1.230.121',
+  country: 'VN',
+  timezone: 'Asia/Bangkok',
+  error: 'Proxy error'
+}
+Proxy is working
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_6220a1d8566ef8215714169d
+trường hợp button không có nền trắng
+không có fail Link -> mail true
+token:  1486220a2192c27f2.9396613805|r=eu-west-1|metabgclr=%23ffffff|maintxtclr=%231B1B1B|mainbgclr=%23ffffff|guitextcolor=%23747474|metaiconclr=%23757575|meta_height=325|meta=7|lang=en|pk=B7D8911C-5CC8-A9A3-35B0-554ACEE604DA|at=40|ag=101|cdn_url=https%3A%2F%2Fclient-api.arkoselabs.com%2Fcdn%2Ffc|lurl=https%3A%2F%2Faudio-eu-west-1.arkoselabs.com|surl=https%3A%2F%2Fclient-api.arkoselabs.com
+submit success on page
+TimeoutError: waiting for selector `span[title="no-reply@microsoft.com"]` failed: timeout 30000ms exceeded
+    at new WaitTask (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\DOMWorld.js:528:34)
+    at DOMWorld.waitForSelectorInPage (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\DOMWorld.js:432:26)
+    at Object.internalHandler.waitFor (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\QueryHandler.js:31:77)
+    at DOMWorld.waitForSelector (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\DOMWorld.js:323:29)
+    at Frame.waitForSelector (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\FrameManager.js:936:51)
+    at Page.waitForSelector (d:\A_Hoan_Code\new-code\deploy\automation-deploy\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Page.js:2359:33)
+    at runOutlook (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\auto\browser\outlook.js:174:16)
+    at async module.exports (d:\A_Hoan_Code\new-code\deploy\automation-deploy\sbridge\runOutlook.js:3:12)
+    at async main (d:\A_Hoan_Code\new-code\deploy\automation-deploy\main\runlistoutlook.js:43:13)
+Uploading profile by signed URL to S3
+BUFFER SIZE 6856046
+Profile has been uploaded to S3 successfully
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= undefined
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+profile id= 6220b4bb60e26a9657f0165d
+new profile name= TranOZA863*
+proxyStatus {
+  city: 'Quận Nam Từ Liêm',
+  status: 'success',
+  origin: '116.107.234.253',
+  country: 'VN',
+  timezone: 'Asia/Bangkok',
+  error: 'Proxy error'
+}
+Proxy is working
+executableFilePath: C:\Users\vukhaihoan\.gologin\browser\orbita-browser\chrome.exe
+PROFILE PATH: C:\Users\VUKHAI~1\AppData\Local\Temp\gologin_profile_6220b4bb60e26a9657f0165d
+trường hợp button có nền trắng
+không có fail Link -> mail true
+token:  716220b4ddb02e57.3310815605|r=eu-west-1|metabgclr=%23ffffff|maintxtclr=%231B1B1B|mainbgclr=%23ffffff|guitextcolor=%23747474|metaiconclr=%23757575|meta_height=325|meta=7|lang=en|pk=B7D8911C-5CC8-A9A3-35B0-554ACEE604DA|at=40|ag=101|cdn_url=https%3A%2F%2Fclient-api.arkoselabs.com%2Fcdn%2Ffc|lurl=https%3A%2F%2Faudio-eu-west-1.arkoselabs.com|surl=https%3A%2F%2Fclient-api.arkoselabs.com
+submit success on page
+try to re submit captcha
+token:  7676220b523749384.7419095005|r=eu-west-1|metabgclr=%23ffffff|maintxtclr=%231B1B1B|mainbgclr=%23ffffff|guitextcolor=%23747474|metaiconclr=%23757575|meta_height=325|meta=7|lang=en|pk=B7D8911C-5CC8-A9A3-35B0-554ACEE604DA|at=40|ag=101|cdn_url=https%3A%2F%2Fclient-api.arkoselabs.com%2Fcdn%2Ffc|lurl=https%3A%2F%2Faudio-eu-west-1.arkoselabs.com|surl=https%3A%2F%2Fclient-api.arkoselabs.com

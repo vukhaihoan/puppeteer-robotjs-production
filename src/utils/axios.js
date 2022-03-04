@@ -7,7 +7,6 @@ axiosRetry(axios, {
         return retryCount * 2000; // time interval between retries
     },
     // retryCondition: (error) => {
-    //     // if retry condition is not specified, by default idempotent requests are retried
     //     return error.response.status === 503;
     // },
 });
