@@ -1,0 +1,477 @@
+ipv6 not changed
+ipv6 not changed
+2402:800:6143:48c7:1403:a2a:dc0b:bb4f
+2402:800:6143:48c7:1403:a2a:dc0b:bb4f
+ipv6 not changed
+2402:800:6143:48c7:1403:a2a:dc0b:bb4f
+2402:800:6143:48c7:1403:a2a:dc0b:bb4f
+ipv6 not changed
+2402:800:6143:48c7:1403:a2a:dc0b:bb4f
+
+
+
+
+{
+  city: '',
+  status: 'fail',
+  origin: '',
+  country: '',
+  timezone: '',
+  error: 'Proxy connection error'
+}
+2402:800:6143:4d3e:2967:94f2:cd86:ee81
+{
+  city: '',
+  status: 'fail',
+  origin: '',
+  country: '',
+  timezone: '',
+  error: 'Proxy connection error'
+}
+2402:800:6143:4db7:f5c2:dfe2:a9e4:8d0e
+{
+  city: '',
+  status: 'fail',
+  origin: '',
+  country: '',
+  timezone: '',
+  error: 'Proxy connection error'
+}
+2402:800:6143:4e05:ecd2:bf26:d49a:2d
+{
+  city: '',
+  status: 'fail',
+  origin: '',
+  country: '',
+  timezone: '',
+  error: 'Proxy connection error'
+}
+2402:800:6143:4e44:a48a:655e:6f1:186d
+{
+  city: '',
+  status: 'success',
+  origin: '2402:800:6143:4e44:a48a:655e:6f1:186d',
+  country: 'VN',
+  timezone: 'Asia/Vientiane',
+  error: 'Proxy error'
+}
+ipv6 not changed
+2402:800:6143:4e44:a48a:655e:6f1:186d
+{
+  city: '',
+  status: 'fail',
+  origin: '',
+  country: '',
+  timezone: '',
+  error: 'Proxy connection error'
+}
+2402:800:6143:4e6e:569:3392:53c6:f790
+{
+  city: '',
+  status: 'success',
+  origin: '2402:800:6143:4e6e:569:3392:53c6:f790',
+  country: 'VN',
+  timezone: 'Asia/Vientiane',
+  error: 'Proxy error'
+}
+ipv6 not changed
+2402:800:6143:4e6e:569:3392:53c6:f790
+{
+  city: '',
+  status: 'success',
+  origin: '2402:800:6143:4e6e:569:3392:53c6:f790',
+  country: 'VN',
+  timezone: 'Asia/Vientiane',
+  error: 'Proxy error'
+}
+ipv6 not changed
+2402:800:6143:4e6e:569:3392:53c6:f790
+{
+  city: '',
+  status: 'success',
+  origin: '2402:800:6143:4ea6:dc32:88e3:414:c325',
+  country: 'VN',
+  timezone: 'Asia/Vientiane',
+  error: 'Proxy error'
+}
+ipv6 changed
+2402:800:6143:4ea6:dc32:88e3:414:c325
+{
+  city: '',
+  status: 'fail',
+  origin: '',
+  country: '',
+  timezone: '',
+  error: 'Proxy connection error'
+}
+2402:800:6143:51c1:e2:2686:32cb:b75f
+{
+  city: '',
+  status: 'success',
+  origin: '2402:800:6143:520b:b04c:ea6d:488b:2cdc',
+  country: 'VN',
+  timezone: 'Asia/Vientiane',
+  error: 'Proxy error'
+}
+ipv6 changed
+2402:800:6143:520b:b04c:ea6d:488b:2cdc
+{
+  city: '',
+  status: 'success',
+  origin: '2402:800:6143:520b:b04c:ea6d:488b:2cdc',
+  country: 'VN',
+  timezone: 'Asia/Vientiane',
+  error: 'Proxy error'
+}
+ipv6 not changed
+2402:800:6143:520b:b04c:ea6d:488b:2cdc
+{
+  city: '',
+  status: 'success',
+  origin: '2402:800:6143:520b:b04c:ea6d:488b:2cdc',
+  country: 'VN',
+  timezone: 'Asia/Vientiane',
+  error: 'Proxy error'
+}
+ipv6 not changed
+2402:800:6143:520b:b04c:ea6d:488b:2cdc
+{
+  city: '',
+  status: 'success',
+  origin: '2402:800:6143:520b:b04c:ea6d:488b:2cdc',
+  country: 'VN',
+  timezone: 'Asia/Vientiane',
+  error: 'Proxy error'
+}
+ipv6 not changed
+2402:800:6143:520b:b04c:ea6d:488b:2cdc
+{
+  city: '',
+  status: 'success',
+  origin: '2402:800:6143:520b:b04c:ea6d:488b:2cdc',
+  country: 'VN',
+  timezone: 'Asia/Vientiane',
+  error: 'Proxy error'
+}
+ipv6 not changed
+2402:800:6143:520b:b04c:ea6d:488b:2cdc
+{
+  city: '',
+  status: 'success',
+  origin: '2402:800:6143:5277:31c8:200:3507:7bc8',
+  country: 'VN',
+  timezone: 'Asia/Vientiane',
+  error: 'Proxy error'
+}
+ipv6 changed
+2402:800:6143:5277:31c8:200:3507:7bc8
+{
+  city: '',
+  status: 'success',
+  origin: '2402:800:6143:5277:31c8:200:3507:7bc8',
+  country: 'VN',
+  timezone: 'Asia/Vientiane',
+  error: 'Proxy error'
+}
+ipv6 not changed
+201
+2402:800:6143:5277:31c8:200:3507:7bc8
+201
+{
+  city: '',
+  status: 'fail',
+  origin: '',
+  country: '',
+  timezone: '',
+  error: 'Proxy connection error'
+}
+Error: I want to retry
+    at d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\gologinApi\index.js:13:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async checkProxyFromGologinApi (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\gologinApi\index.js:21:12)
+    at async compareProxyGologin (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\gologinApi\index.js:62:38)
+    at async proxyChanger (d:\A_Hoan_Code\new-code\deploy\automation-deploy\main\runlistoutlook.js:37:12)
+    at async main (d:\A_Hoan_Code\new-code\deploy\automation-deploy\main\runlistoutlook.js:48:9) {
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json',
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjIwYjQ5M2QxMDRhNjU0ZWY0OGY2MDUiLCJ0eXBlIjoiZGV2Iiwiand0aWQiOiI2MjIwYjQ5YmI4YmJiNDkyZjQwNTMzNDYifQ.LwcjRE_3CBUXgUVFahWWiOuFvNDXvXAZVpoOLWH09_E',
+      'User-Agent': 'axios/0.26.0',
+      'Content-Length': 67
+    },
+    baseURL: 'https://api.gologin.com',
+    'axios-retry': { retryCondition: [Function: retryCondition] },
+    method: 'post',
+    url: '/browser/check_proxy',
+    data: '{"type":"socks5","host":"100014837701498.ldproxy.com","port":17309}'
+  },
+  response: {
+    status: 201,
+    statusText: 'Created',
+    headers: {
+      date: 'Fri, 04 Mar 2022 14:31:41 GMT',
+      'content-type': 'application/json; charset=utf-8',
+      'content-length': '99',
+      connection: 'close',
+      vary: 'Origin, Accept-Encoding',
+      'access-control-allow-credentials': 'true',
+      'x-dns-prefetch-control': 'off',
+      'x-frame-options': 'SAMEORIGIN',
+      'strict-transport-security': 'max-age=15552000; includeSubDomains',
+      'x-download-options': 'noopen',
+      'x-content-type-options': 'nosniff',
+      'x-xss-protection': '1; mode=block',
+      etag: 'W/"63-l06G4F2HmoNNupxbbKsOALZbaRw"',
+      via: '1.1 google',
+      'alt-svc': 'h3=":443"; ma=86400, h3-29=":443"; ma=86400',
+      'cf-cache-status': 'DYNAMIC',
+      'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+      server: 'cloudflare',
+      'cf-ray': '6e6b511f1cf389b2-SIN'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Function: httpAdapter],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      headers: [Object],
+      baseURL: 'https://api.gologin.com',
+      'axios-retry': [Object],
+      method: 'post',
+      url: '/browser/check_proxy',
+      data: '{"type":"socks5","host":"100014837701498.ldproxy.com","port":17309}'
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'POST /browser/check_proxy HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/json\r\n' +
+        'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjIwYjQ5M2QxMDRhNjU0ZWY0OGY2MDUiLCJ0eXBlIjoiZGV2Iiwiand0aWQiOiI2MjIwYjQ5YmI4YmJiNDkyZjQwNTMzNDYifQ.LwcjRE_3CBUXgUVFahWWiOuFvNDXvXAZVpoOLWH09_E\r\n' +
+        'User-Agent: axios/0.26.0\r\n' +
+        'Content-Length: 67\r\n' +
+        'Host: api.gologin.com\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'POST',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/browser/check_proxy',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'api.gologin.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    data: {
+      city: '',
+      status: 'fail',
+      origin: '',
+      country: '',
+      timezone: '',
+      error: 'Proxy connection error'
+    }
+  }
+}
+Error: I want to retry
+    at d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\gologinApi\index.js:13:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async checkProxyFromGologinApi (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\gologinApi\index.js:21:12)
+    at async compareProxyGologin (d:\A_Hoan_Code\new-code\deploy\automation-deploy\src\gologinApi\index.js:62:38)
+    at async proxyChanger (d:\A_Hoan_Code\new-code\deploy\automation-deploy\main\runlistoutlook.js:37:12)
+    at async main (d:\A_Hoan_Code\new-code\deploy\automation-deploy\main\runlistoutlook.js:48:9) {
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json',
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjIwYjQ5M2QxMDRhNjU0ZWY0OGY2MDUiLCJ0eXBlIjoiZGV2Iiwiand0aWQiOiI2MjIwYjQ5YmI4YmJiNDkyZjQwNTMzNDYifQ.LwcjRE_3CBUXgUVFahWWiOuFvNDXvXAZVpoOLWH09_E',
+      'User-Agent': 'axios/0.26.0',
+      'Content-Length': 67
+    },
+    baseURL: 'https://api.gologin.com',
+    'axios-retry': { retryCondition: [Function: retryCondition] },
+    method: 'post',
+    url: '/browser/check_proxy',
+    data: '{"type":"socks5","host":"100014837701498.ldproxy.com","port":17309}'
+  },
+  response: {
+    status: 201,
+    statusText: 'Created',
+    headers: {
+      date: 'Fri, 04 Mar 2022 14:32:50 GMT',
+      'content-type': 'application/json; charset=utf-8',
+      'content-length': '145',
+      connection: 'close',
+      vary: 'Origin, Accept-Encoding',
+      'access-control-allow-credentials': 'true',
+      'x-dns-prefetch-control': 'off',
+      'x-frame-options': 'SAMEORIGIN',
+      'strict-transport-security': 'max-age=15552000; includeSubDomains',
+      'x-download-options': 'noopen',
+      'x-content-type-options': 'nosniff',
+      'x-xss-protection': '1; mode=block',
+      etag: 'W/"91-e9JTvap/nXxP7M5PeRZz175jG2A"',
+      via: '1.1 google',
+      'alt-svc': 'h3=":443"; ma=86400, h3-29=":443"; ma=86400',
+      'cf-cache-status': 'DYNAMIC',
+      'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+      server: 'cloudflare',
+      'cf-ray': '6e6b52c3092e6c89-SIN'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Function: httpAdapter],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      headers: [Object],
+      baseURL: 'https://api.gologin.com',
+      'axios-retry': [Object],
+      method: 'post',
+      url: '/browser/check_proxy',
+      data: '{"type":"socks5","host":"100014837701498.ldproxy.com","port":17309}'
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'POST /browser/check_proxy HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/json\r\n' +
+        'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjIwYjQ5M2QxMDRhNjU0ZWY0OGY2MDUiLCJ0eXBlIjoiZGV2Iiwiand0aWQiOiI2MjIwYjQ5YmI4YmJiNDkyZjQwNTMzNDYifQ.LwcjRE_3CBUXgUVFahWWiOuFvNDXvXAZVpoOLWH09_E\r\n' +
+        'User-Agent: axios/0.26.0\r\n' +
+        'Content-Length: 67\r\n' +
+        'Host: api.gologin.com\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'POST',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/browser/check_proxy',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'api.gologin.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    data: {
+      city: '',
+      status: 'success',
+      origin: '2402:800:6143:52ca:6572:41fd:3304:dea6',
+      country: 'VN',
+      timezone: 'Asia/Vientiane',
+      error: 'Proxy error'
+    }
+  }
+}

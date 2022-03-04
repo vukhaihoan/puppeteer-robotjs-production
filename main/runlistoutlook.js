@@ -1,14 +1,13 @@
-require("../overWrite");
+// require("../overWrite");
 require("dotenv").config();
 const amount = 1;
 var fs = require("fs");
 var util = require("util");
 const {
     runOutlookBridge,
-    gologinApi: { changeProxyOfProfile, checkProxyFromGologinApi },
+    gologinApi: { changeProxyOfProfile, checkProxyFromGologinApi, compareProxyGologin },
     ipChanger: {
-        helper: { checkIp, compareIp },
-        xproxy: { getCurrentProxyXproxy, getNewProxyXproxy },
+        xproxy: { getCurrentProxyXproxy, getNewProxyXproxy, compareProxyXproxy },
     },
     createProfileBridge,
     initial: { launchProfileGologin },
@@ -30,9 +29,17 @@ async function createUserAndProfile() {
     fs.writeFileSync(__dirname + "/../data/listProfile.json", JSON.stringify(listProfile));
     return userAndProfile;
 }
-async function proxyChanger() {
-    function fullchangeCallback() {}
-    await compareIp();
+async function proxyChangerGoLogin(type, host, port) {
+    async function fullchangeCallback() {
+        await getNewProxyXproxy(port);
+    }
+    return await compareProxyGologin(fullchangeCallback, type, host, port);
+}
+async function proxyChangerXproxy(port) {
+    async function fullchangeCallback() {
+        await getNewProxyXproxy(port);
+    }
+    return await compareProxyXproxy(fullchangeCallback, port);
 }
 
 async function main() {
@@ -43,8 +50,8 @@ async function main() {
     while (i < amount) {
         // consoleToLog(i);
         // const { user, profile } = await createUserAndProfile();
-        await proxyChanger();
-
+        // await proxyChangerGoLogin("socks5", "100014837701498.ldproxy.com", 17309);
+        console.log(await proxyChangerXproxy(17309));
         i++;
     }
 }
