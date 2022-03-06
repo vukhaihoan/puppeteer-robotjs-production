@@ -41,16 +41,16 @@ async function closeBrowserAndGologin(browser, GL, err) {
                 if (err) {
                     console.log("FORCE CLOSE PAGE DUE TO ERROR : " + "https://" + page.url().split("/")[2]);
                 } else {
-                    console.log("CLOSE PAGE BEFOR CLOSE BROWSER : " + "https://" + page.url().split("/")[2]);
+                    console.log("CLOSE PAGE BEFORE CLOSE BROWSER : " + "https://" + page.url().split("/")[2]);
                 }
 
                 await page.close();
             });
         await browser.close();
         await GL.stop();
-        console.log("CLOSE Brower&Gologin SUCCESS");
+        console.log("CLOSE Browser&Gologin SUCCESS");
     } catch (error) {
-        const errMessage = `CLOSE Brower&Gologin ERROR `;
+        const errMessage = `CLOSE Browner&Gologin ERROR `;
         console.log(errMessage, error);
         throw new Error(errMessage);
     }
@@ -61,7 +61,7 @@ const Global = {
     page: null,
 };
 
-class PageFunctionNomal {
+class PageFunctionNormal {
     constructor(page) {
         /**
          * @type {PuppeteerChromiumType.Page}
@@ -83,7 +83,7 @@ class PageFunctionNomal {
     async type(selector, text, message, ...delayTime) {
         try {
             // await this.page.waitForSelector(selector);
-            const element = await this.click(selector, "click befor TYPE : " + message, delayTime[2], delayTime[3]);
+            const element = await this.click(selector, "click before TYPE : " + message, delayTime[2], delayTime[3]);
             await this.page.keyboard.type(text, { delay: 100 });
             await delay(rn(delayTime[0] || 500, delayTime[1] || 1000));
             console.log(message + " SUCCESS");
@@ -96,7 +96,7 @@ class PageFunctionNomal {
     async select(selector, value, message, ...delayTime) {
         try {
             // const element = await this.page.waitForSelector(selector);
-            const element = await this.click(selector, "click befor SELECT : " + message, delayTime[2], delayTime[3]);
+            const element = await this.click(selector, "click before SELECT : " + message, delayTime[2], delayTime[3]);
             await this.page.select(selector, value);
             await delay(rn(delayTime[0] || 500, delayTime[1] || 1000));
             console.log(message + " SUCCESS");
@@ -138,11 +138,11 @@ async function gotoOutlookUrl(page, instancePage) {
 async function gotoSignUpUrl(page) {
     try {
         await page.waitForSelector('a[href="https://outlook.live.com/owa/?nlp=1&signup=1"]');
-        const cratebuttonlist = await page.$$('a[href="https://outlook.live.com/owa/?nlp=1&signup=1"]');
+        const createButtonList = await page.$$('a[href="https://outlook.live.com/owa/?nlp=1&signup=1"]');
         try {
-            await cratebuttonlist[0].click({ delay: 100 });
+            await createButtonList[0].click({ delay: 100 });
         } catch (err) {
-            await cratebuttonlist[1].click({ delay: 100 });
+            await createButtonList[1].click({ delay: 100 });
         }
         await waitForNavigationKnowError(
             page,
@@ -161,10 +161,10 @@ async function gotoSignUpUrl(page) {
 
 async function checkFailEmailKnowError(page, instancePage) {
     try {
-        const faileLink = await page.waitForSelector("#suggLink", {
+        const failedLink = await page.waitForSelector("#suggLink", {
             hidden: true,
         });
-        if (faileLink) {
+        if (failedLink) {
             await instancePage.click("#suggLink", "CLICK FAIL LINK");
             const buttonNameMail = await instancePage.click("#Suggestions > div > a", "CLICK BUTTON NAME MAIL");
             // get Mail Name
@@ -267,7 +267,7 @@ async function runOutlook({ user, profile }, i) {
         Global.browser = browser;
         Global.GL = GL;
         const page = await browser.newPage();
-        const instancePage = new PageFunctionNomal(page);
+        const instancePage = new PageFunctionNormal(page);
         await installMouseHelper(page);
         const cursor = createCursor(page);
 
@@ -325,7 +325,7 @@ async function runOutlook({ user, profile }, i) {
 
         await closeBrowserAndGologin(browser, GL);
     } catch (error) {
-        console.log(`RUN PROFILE OUTLOOOK ERROR : ${profile.profileId}`, error);
+        console.log(`RUN PROFILE OUTLOOK ERROR : ${profile.profileId}`, error);
         await closeBrowserAndGologin(Global.browser, Global.GL, true);
     }
 }
