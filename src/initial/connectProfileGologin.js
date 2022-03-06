@@ -2,7 +2,7 @@ const GoLogin = require("gologin");
 async function runProfile(profileId) {
     const GL = new GoLogin({
         token: process.env.GOLOGIN_TOKEN,
-        profile_id: profileId,
+        profileId: profileId,
         uploadCookiesToServer: true,
     });
 

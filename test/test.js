@@ -1,14 +1,14 @@
 const axios = require("axios");
 const axiosRetry = require("axios-retry");
-axios.interceptors.response.use(async (response) => {
-    if (response.status == 200) {
-        const err = new Error("ERROR CATCH I want to retry");
-        err.config = response.config; // axios-retry using this
-        err.response = response; // optional, if you need for retry condition
-        throw err;
-    }
-    return response;
-});
+// axios.interceptors.response.use(async (response) => {
+//     if (response.status == 200) {
+//         const err = new Error("ERROR CATCH I want to retry");
+//         err.config = response.config; // axios-retry using this
+//         err.response = response; // optional, if you need for retry condition
+//         throw err;
+//     }
+//     return response;
+// });
 
 axiosRetry(axios, {
     retries: 5, // number of retries
@@ -47,7 +47,7 @@ axiosRetry(instance, {
     retries: 8, // number of retries
 });
 
-instance
+axios
     .get("https://example.com/", {
         "axios-retry": {
             retryDelay: (retryCount) => {
@@ -56,7 +56,7 @@ instance
             },
             retryCondition: (error) => {
                 console.log("retry condition");
-                return true;
+                return false;
             },
         },
     })

@@ -31,7 +31,7 @@ async function main() {
             }
             arr.push(i + j);
         }
-        const listProfileId = arr.map((item) => listProfile[item].profile.profile_id);
+        const listProfileId = arr.map((item) => listProfile[item].profile.profileId);
         await Promise.all(
             listProfileId.map(async (item, index) => {
                 await delay(200 * index);

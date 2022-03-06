@@ -10,26 +10,26 @@ const createProfileGologin = async (profileName) => {
 
     // next parameters are required for creating
 
-    const profile_id = await GL.create({
+    const profileId = await GL.create({
         os: "win",
         name: profileName || "DefaultName",
         startUrl: "https://www.google.com/",
     });
 
-    console.log("profile id=", profile_id);
+    console.log("profile id=", profileId);
 
     // update profile
     // await GL.update({
-    //     id: profile_id,
+    //     id: profileId,
     // });
 
-    const profile = await GL.getProfile(profile_id);
+    const profile = await GL.getProfile(profileId);
 
     console.log("new profile name=", profile.name);
 
-    //await GL.delete(profile_id);
+    //await GL.delete(profileId);
     return {
-        profile_id,
+        profileId,
         profileName,
     };
 };

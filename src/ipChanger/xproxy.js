@@ -24,7 +24,7 @@ async function getCurrentProxyXproxy(port) {
                 "axios-retry": {
                     retryDelay: (retryCount) => {
                         console.log(`getCurrentProxyXproxy: ${retryCount}`);
-                        return retryCount * 3000; // time interval between retries
+                        return retryCount * 5000; // time interval between retries
                     },
                     retryCondition: (error) => {
                         console.log("retry condition for getCurrentProxyXproxy");
@@ -74,6 +74,7 @@ async function compareProxyXproxy(fullchangeCallback, port) {
     let ipChangerCompareResult = {
         v4Changed: false,
         v6Changed: false,
+        success: false,
         message: "BOTH_V4_V6",
     };
     async function callback() {
@@ -105,6 +106,9 @@ async function compareProxyXproxy(fullchangeCallback, port) {
         errmessgae: "Failed to change ip",
         retryDelayTime: 5000,
     });
+    if (ipChangerCompareResult.v4Changed && ipChangerCompareResult.v6Changed) {
+        ipChangerCompareResult.success = true;
+    }
     return ipChangerCompareResult;
 }
 

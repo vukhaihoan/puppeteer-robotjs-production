@@ -1,14 +1,6 @@
-const puppeteerChromiumType = require("puppeteer");
-const { addExtra } = require("puppeteer-extra");
-const vanillaPuppeteer = require("puppeteer-core");
-const StealthPlugin = require("puppeteer-extra-plugin-stealth");
-const adblocker = require("puppeteer-extra-plugin-adblocker");
+const PuppeteerChromiumType = require("puppeteer");
 // const { createCursor } = require("ghost-cursor");
 const humanizePuppeteer = require("../../lib/humanize-puppeteer");
-
-const puppeteer = addExtra(vanillaPuppeteer);
-puppeteer.use(StealthPlugin());
-puppeteer.use(adblocker());
 
 async function type(page, selector, text, ...delayTime) {
     const element = await page.waitForSelector(selector);
@@ -40,6 +32,5 @@ module.exports = {
     select,
     click,
     humanizePuppeteer,
-    puppeteer,
-    puppeteerChromiumType,
+    PuppeteerChromiumType,
 };

@@ -9,7 +9,7 @@
             "fullname": "Trần Cự",
             "born": { "day": "25", "month": "10", "year": "2002" }
         },
-        "profile": { "profile_id": "622096df9ea85bda6a4bcf90", "profileName": "9785VuNaN@" }
+        "profile": { "profileId": "622096df9ea85bda6a4bcf90", "profileName": "9785VuNaN@" }
     },
     {
         "user": {
@@ -21,7 +21,7 @@
             "fullname": "Lê Vụ",
             "born": { "day": "29", "month": "9", "year": "2000" }
         },
-        "profile": { "profile_id": "6220974d1b56f13015e9496e", "profileName": "CcrbXDang78!" },
+        "profile": { "profileId": "6220974d1b56f13015e9496e", "profileName": "CcrbXDang78!" },
         "error": {}
     },
     {
@@ -34,7 +34,7 @@
             "fullname": "Nguyễn My",
             "born": { "day": "20", "month": "9", "year": "1989" }
         },
-        "profile": { "profile_id": "6220975043bcf5894f9d0cf4", "profileName": "HoopE326%" },
+        "profile": { "profileId": "6220975043bcf5894f9d0cf4", "profileName": "HoopE326%" },
         "error": {}
     },
     {
@@ -47,7 +47,7 @@
             "fullname": "Trần Huy",
             "born": { "day": "15", "month": "5", "year": "1988" }
         },
-        "profile": { "profile_id": "6220985970960e625f9a943a", "profileName": "Huynho0p182@" }
+        "profile": { "profileId": "6220985970960e625f9a943a", "profileName": "Huynho0p182@" }
     },
     {
         "user": {
@@ -59,7 +59,7 @@
             "fullname": "Nguyễn Trực",
             "born": { "day": "22", "month": "7", "year": "1993" }
         },
-        "profile": { "profile_id": "622098d03b389018bb6a1bbd", "profileName": "NLo2JLe40?" }
+        "profile": { "profileId": "622098d03b389018bb6a1bbd", "profileName": "NLo2JLe40?" }
     },
     {
         "user": {
@@ -71,7 +71,7 @@
             "fullname": "Lưu Nhàn",
             "born": { "day": "12", "month": "10", "year": "2003" }
         },
-        "profile": { "profile_id": "62209955566ef8ccd8140c1c", "profileName": "0kkPwDuong60$" },
+        "profile": { "profileId": "62209955566ef8ccd8140c1c", "profileName": "0kkPwDuong60$" },
         "error": { "name": "TimeoutError" }
     }
 ]

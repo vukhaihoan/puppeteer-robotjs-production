@@ -38,7 +38,7 @@ async function checkProxyFromGologinApi(type, host, port) {
                     retries: 5,
                     retryDelay: (retryCount) => {
                         console.log(`checkProxyFromGologinApiretry attempt: ${retryCount}`);
-                        return retryCount * 2000; // time interval between retries
+                        return retryCount * 5000; // time interval between retries
                     },
                 },
             }
@@ -53,13 +53,27 @@ async function checkProxyFromGologinApi(type, host, port) {
 }
 
 async function changeProxyOfProfile(id, type, host, port) {
-    return await instance
-        .patch(`/browser/${id}/proxy`, {
-            mode: type,
-            host,
-            port,
+    return await axios
+        .patch(
+            `https://api.gologin.com/browser/${id}/proxy`,
+            {
+                mode: type,
+                host,
+                port,
+            },
+            {
+                headers: {
+                    Authorization: "Bearer " + process.env.GOLOGIN_TOKEN,
+                },
+            }
+        )
+        .then((res) => {
+            // console.log(res);
+            return res.status;
         })
-        .then((res) => res.data);
+        .catch((err) => {
+            console.log(err);
+        });
 }
 
 function block4v6(ipv6) {
@@ -100,7 +114,7 @@ async function compareProxyGologin(fullchangeCallback, type, host, port) {
 async function main() {
     // console.log(await checkProxyFromGologinApi("socks5", "100014837701498.ldproxy.com", 17309));
     // console.log(await changeProxyOfProfile("62187795c9544bcba0815034", "socks5", "100014837701498.ldproxy.com", 17309));
-    await compareProxyGologin("62187795c9544bcba0815034", "socks5", "100014837701498.ldproxy.com", 17309);
+    // await compareProxyGologin("62187795c9544bcba0815034", "socks5", "100014837701498.ldproxy.com", 17309);
 }
 // main();
 module.exports = {

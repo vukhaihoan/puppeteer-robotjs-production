@@ -1,13 +1,13 @@
 const { puppeteer, Cluster, clusterConnect, puppeteerChromiumType } = require("../../shared/puppeteerFunction");
 const { delay, rn } = require("../../utils");
-const runProfile = require("../../intial/connectProfileGologin");
+const runProfile = require("../../initial/connectProfileGologin");
 const { listKeywords } = require("../../../data");
 
-async function runPerProfile(profile_id) {
+async function runPerProfile(profileId) {
     try {
         let currentProfile;
         const ws = async () => {
-            const res = await runProfile(profile_id);
+            const res = await runProfile(profileId);
             currentProfile = res;
             return res.wsUrl;
         };
@@ -137,13 +137,13 @@ async function runPerProfile(profile_id) {
         await currentProfile.GL.stop();
     } catch (error) {
         return {
-            profile_id,
+            profileId,
             success: false,
             error,
         };
     }
     return {
-        profile_id,
+        profileId,
         success: true,
     };
 }

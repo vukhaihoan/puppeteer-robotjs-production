@@ -34,12 +34,12 @@ async function changeIpModem() {
                         await page.$eval("#button", (el) => el.click());
                         await page.waitForNavigation({ waitUntil: "networkidle0" });
                     }
-                    async function intial(page) {
+                    async function initial(page) {
                         console.log(page.url());
                         await login(page);
                         const status = await checkRetryPageAndGoHomePage(page);
                         if (status) {
-                            await intial(page);
+                            await initial(page);
                         }
                         await page.waitForSelector("#Cmbutton");
                         await page.$eval("#Cmbutton", (el) => el.click());
@@ -48,7 +48,7 @@ async function changeIpModem() {
                         await page.waitForNetworkIdle();
                         // await page.screenshot({ path: "./example2.png" });
                         await delay(200);
-                        console.log("Done! Intial - Login");
+                        console.log("Done! initial - Login");
                     }
                     async function closePage(page) {
                         return await page.close();
@@ -73,12 +73,12 @@ async function changeIpModem() {
                         return false;
                     }
                     const page = await createPage();
-                    await intial(page);
+                    await initial(page);
                     async function switchClick(page) {
                         await page.mouse.click(718, 245);
                         await delay(500);
                         if (checkHomePage(page)) {
-                            await intial(page);
+                            await initial(page);
                             await switchClick(page);
                         }
                         await page.mouse.click(718, 315);
@@ -90,7 +90,7 @@ async function changeIpModem() {
                         await page.mouse.click(730, 655);
                         await delay(500);
                         if (checkHomePage(page)) {
-                            await intial(page);
+                            await initial(page);
                             await switchClick(page);
                         }
                         await page.evaluate(() => {

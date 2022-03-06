@@ -1,8 +1,8 @@
 require("dotenv").config();
-const { createProfileBridge } = require("../sbridge");
+const { createUserAndProfileBridge } = require("../sbridge");
 const fs = require("fs");
 async function main() {
-    const result = await createProfileBridge();
+    const result = await createUserAndProfileBridge();
     fs.writeFileSync(__dirname + "/../data/oneProfile.json", JSON.stringify(result));
 }
 main();
