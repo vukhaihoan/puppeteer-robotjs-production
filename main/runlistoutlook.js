@@ -1,6 +1,6 @@
 // require("../overWrite");
 require("dotenv").config();
-const amount = 30;
+const amount = 52;
 var fs = require("fs");
 var util = require("util");
 
@@ -38,7 +38,7 @@ async function main() {
         if (amount == 0) {
             throw new Error("Amount is 0");
         }
-        let i = 25;
+        let i = 50;
         while (i < amount) {
             try {
                 consoleToLog(i);

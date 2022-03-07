@@ -196,7 +196,7 @@ async function checkFailEmailKnowError(page, instancePage) {
         console.log("CHECK FAIL EMAIL KNOW ERROR : N0_FAIL_EMAIL");
     }
 }
-
+const slow3G = PuppeteerChromiumType.networkConditions["Slow 3G"];
 async function runOutlook({ user, profile }, i) {
     try {
         const { mail, password, last, first, born } = user;
@@ -204,6 +204,7 @@ async function runOutlook({ user, profile }, i) {
         Global.browser = browser;
         Global.GL = GL;
         const page = await browser.newPage();
+        // await page.emulateNetworkConditions(slow3G);
         const instancePage = new PageFunctionNormal(page);
         await installMouseHelper(page);
         const cursor = createCursor(page);
