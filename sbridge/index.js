@@ -16,7 +16,7 @@ async function createUserAndProfile() {
 
 module.exports = {
     createUserAndProfileBridge: createUserAndProfile,
-    runcookieGoogleBridge: cookieGoogle,
+    runCookieGoogleBridge: cookieGoogle,
     runProfileBridge: runProfileGoLogin,
     runOutlookBridge: outlook,
     ipChanger,

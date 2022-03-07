@@ -6,6 +6,7 @@ function isPromise(promise) {
 
 async function goto(callback, condition, { retryAmount = 5, retryDelayTime = 2000, errmessgae, retryMessage }) {
     // console.log(condition);
+    let resResultGlobal = null;
     function retryDelay(retryCount) {
         console.log(`${retryMessage || "retry "} attempt : ${retryCount}`);
         return retryCount * retryDelayTime; // time interval between retries
@@ -16,8 +17,9 @@ async function goto(callback, condition, { retryAmount = 5, retryDelayTime = 200
         if (i > 0) {
             await delay(retryDelay(i));
         }
-        await callback();
-        const conditionResult = await condition();
+        const result = await callback();
+        resResultGlobal = result;
+        const conditionResult = await condition(result);
         i++;
         if (i < retryAmount && conditionResult) continue start;
         if (i == retryAmount) {
@@ -28,6 +30,7 @@ async function goto(callback, condition, { retryAmount = 5, retryDelayTime = 200
     if (check) {
         throw new Error((errmessgae || `Failed to submit captcha `) + `after ${retryAmount} attempts`);
     }
+    return resResultGlobal;
 }
 // let status = false;
 // goto(function () {

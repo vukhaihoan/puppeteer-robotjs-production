@@ -15,7 +15,7 @@ axiosRetry(xproxyInstance, {
     retries: 5,
 });
 
-async function getCurrentProxyXproxy(port) {
+async function getCurrentProxyXproxy(port, type) {
     let dataReturned = null;
     try {
         const { data } = await xproxyInstance.get(
@@ -23,11 +23,11 @@ async function getCurrentProxyXproxy(port) {
             {
                 "axios-retry": {
                     retryDelay: (retryCount) => {
-                        console.log(`getCurrentProxyXproxy: ${retryCount}`);
+                        console.log(`getCurrentProxyXproxy ${type ? type : ""}: ${retryCount}`);
                         return retryCount * 5000; // time interval between retries
                     },
                     retryCondition: (error) => {
-                        console.log("retry condition for getCurrentProxyXproxy");
+                        console.log("retry condition for getCurrentProxyXproxy " + type ? type : "");
                         return true;
                     },
                 },
@@ -47,7 +47,7 @@ async function getNewProxyXproxy(port) {
             "axios-retry": {
                 retryDelay: (retryCount) => {
                     console.log(`getNewProxyXproxy get new proxyretry attempt: ${retryCount}`);
-                    return retryCount * 15000; // time interval between retries
+                    return retryCount * 10000; // time interval between retries
                 },
                 retryCondition: (error) => {
                     console.log("retry condition for getNewProxyXproxy");
@@ -62,10 +62,10 @@ function block4v6(ipv6) {
     return ipv6.split(":")[3];
 }
 
-async function compareProxyXproxy(fullchangeCallback, port) {
+async function compareProxyXproxy(fullChangeCallback, port) {
     const IpBeforeChange = await getCurrentProxyXproxy(port);
     console.log("IpBeforeChange", IpBeforeChange);
-    await fullchangeCallback();
+    await fullChangeCallback();
     if (!IpBeforeChange) {
         return {
             message: "GET_IP_BEFORE_CHANGE_FAILED",
@@ -113,12 +113,11 @@ async function compareProxyXproxy(fullchangeCallback, port) {
 }
 
 async function main() {
-    const current = await getCurrentProxyXproxy();
+    const current = await getCurrentProxyXproxy(15309, "BEFORE");
     console.log(current);
-    const status = await getNewProxyXproxy();
+    const status = await getNewProxyXproxy(15309);
     console.log(status);
-    await delay(3800);
-    const newProxy = await getCurrentProxyXproxy();
+    const newProxy = await getCurrentProxyXproxy(15309, "AFTER");
     console.log(newProxy);
 }
 // main();

@@ -1,6 +1,6 @@
 // require("../overWrite");
 require("dotenv").config();
-const amount = 13;
+const amount = 20;
 var fs = require("fs");
 var util = require("util");
 
@@ -32,17 +32,17 @@ async function createUserAndProfileFs() {
     return userAndProfile;
 }
 async function proxyChangerGoLogin(type, host, port) {
-    async function fullchangeCallback() {
+    async function fullChangeCallback() {
         await getNewProxyXproxy(port);
     }
-    return await compareProxyGologin(fullchangeCallback, type, host, port);
+    return await compareProxyGologin(fullChangeCallback, type, host, port);
 }
 async function proxyChangerXproxy(port) {
-    async function fullchangeCallback() {
+    async function fullChangeCallback() {
         await getNewProxyXproxy(port);
-        await delay(5000);
+        await delay(7000);
     }
-    return await compareProxyXproxy(fullchangeCallback, port);
+    return await compareProxyXproxy(fullChangeCallback, port);
 }
 
 async function main() {
@@ -50,7 +50,7 @@ async function main() {
         if (amount == 0) {
             throw new Error("Amount is 0");
         }
-        let i = 10;
+        let i = 17;
         while (i < amount) {
             try {
                 consoleToLog(i);
@@ -69,7 +69,7 @@ async function main() {
                 //     lastOne: "Nguyễn",
                 //     last: "Giáp",
                 //     first: "Yến",
-                //     fullname: "Nguyễn Yến",
+                //     fullName: "Nguyễn Yến",
                 //     born: { day: "18", month: "6", year: "1998" },
                 // };
                 // const profile = {

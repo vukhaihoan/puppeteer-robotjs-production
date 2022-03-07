@@ -6,7 +6,7 @@
             "lastOne": "Trần",
             "last": "Hứa",
             "first": "Cự",
-            "fullname": "Trần Cự",
+            "fullName": "Trần Cự",
             "born": { "day": "25", "month": "10", "year": "2002" }
         },
         "profile": { "profileId": "622096df9ea85bda6a4bcf90", "profileName": "9785VuNaN@" }
@@ -18,7 +18,7 @@
             "lastOne": "Lê",
             "last": "Quàng",
             "first": "Vụ",
-            "fullname": "Lê Vụ",
+            "fullName": "Lê Vụ",
             "born": { "day": "29", "month": "9", "year": "2000" }
         },
         "profile": { "profileId": "6220974d1b56f13015e9496e", "profileName": "CcrbXDang78!" },
@@ -31,7 +31,7 @@
             "lastOne": "Nguyễn",
             "last": "Triệu",
             "first": "My",
-            "fullname": "Nguyễn My",
+            "fullName": "Nguyễn My",
             "born": { "day": "20", "month": "9", "year": "1989" }
         },
         "profile": { "profileId": "6220975043bcf5894f9d0cf4", "profileName": "HoopE326%" },
@@ -44,7 +44,7 @@
             "lastOne": "Trần",
             "last": "Tráng",
             "first": "Huy",
-            "fullname": "Trần Huy",
+            "fullName": "Trần Huy",
             "born": { "day": "15", "month": "5", "year": "1988" }
         },
         "profile": { "profileId": "6220985970960e625f9a943a", "profileName": "Huynho0p182@" }
@@ -56,7 +56,7 @@
             "lastOne": "Nguyễn",
             "last": "Khoa",
             "first": "Trực",
-            "fullname": "Nguyễn Trực",
+            "fullName": "Nguyễn Trực",
             "born": { "day": "22", "month": "7", "year": "1993" }
         },
         "profile": { "profileId": "622098d03b389018bb6a1bbd", "profileName": "NLo2JLe40?" }
@@ -68,7 +68,7 @@
             "lastOne": "Lưu",
             "last": "Liễu",
             "first": "Nhàn",
-            "fullname": "Lưu Nhàn",
+            "fullName": "Lưu Nhàn",
             "born": { "day": "12", "month": "10", "year": "2003" }
         },
         "profile": { "profileId": "62209955566ef8ccd8140c1c", "profileName": "0kkPwDuong60$" },

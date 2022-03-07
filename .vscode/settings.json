@@ -5,10 +5,13 @@
         "Gologin",
         "hotmail",
         "Kmsi",
+        "ldproxy",
         "networkidle",
         "ORBITA",
         "Proxyless",
+        "sbridge",
         "sugg",
-        "vukhaihoan"
+        "vukhaihoan",
+        "Xproxy"
     ]
 }

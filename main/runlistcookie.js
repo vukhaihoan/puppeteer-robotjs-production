@@ -2,7 +2,7 @@ require("dotenv").config();
 const fs = require("fs");
 const amount = 1;
 let paralle = 1;
-const { runcookieGoogleBridge } = require("../sbridge");
+const { runCookieGoogleBridge } = require("../sbridge");
 const { listProfile, listCookies, status } = require("../data");
 const { delay } = require("../src/utils");
 const { gologinApi } = require("../sbridge");
@@ -37,7 +37,7 @@ async function main() {
                 await delay(200 * index);
                 // await gologinApi.changeProxy(item, "socks5", "100014837701498.ldproxy.com", 15309);
                 // await gologinApi.checkProxy("socks5", "100014837701498.ldproxy.com", 15309);
-                const result = await runcookieGoogleBridge(item);
+                const result = await runCookieGoogleBridge(item);
                 listCookies.push(result);
             })
         ).then((result) => {

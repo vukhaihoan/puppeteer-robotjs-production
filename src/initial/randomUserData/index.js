@@ -6,7 +6,7 @@ function randomUserData() {
     const first = rname.first();
     const last = rname.last();
     const lastOne = rname.lastOne();
-    const fullname = `${lastOne} ${first}`;
+    const fullName = `${lastOne} ${first}`;
     function realPass() {
         const symbol = ["!", "@", "#", "$", "%", "*", "?"]; // "^", "&" error
         const pass1 =
@@ -76,11 +76,11 @@ function randomUserData() {
         // lastOne: removeAccents(lastOne),
         // last: removeAccents(last),
         // first: removeAccents(first),
-        // fullname: removeAccents(fullname),
+        // fullName: removeAccents(fullName),
         lastOne: lastOne,
         last: last,
         first: first,
-        fullname: fullname,
+        fullName: fullName,
         born,
     };
     // console.log(fullResult);
