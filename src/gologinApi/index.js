@@ -37,7 +37,7 @@ async function checkProxyFromGologinApi(type, host, port) {
                     },
                     retries: 5,
                     retryDelay: (retryCount) => {
-                        console.log(`checkProxyFromGologinApiretry attempt: ${retryCount}`);
+                        console.log(`checkProxyFromGologinApi retry attempt: ${retryCount}`);
                         return retryCount * 5000; // time interval between retries
                     },
                 },
@@ -80,10 +80,10 @@ function block4v6(ipv6) {
     return ipv6.split(":")[3];
 }
 
-async function compareProxyGologin(fullchangeCallback, type, host, port) {
+async function compareProxyGologin(fullChangeCallback, type, host, port) {
     let { origin: ipBeforeChange } = await checkProxyFromGologinApi(type, host, port);
     console.log(ipBeforeChange);
-    await fullchangeCallback();
+    await fullChangeCallback();
     let { origin: ipAfterChange } = await checkProxyFromGologinApi(type, host, port);
     console.log(ipAfterChange);
     let changeResult = {
@@ -111,6 +111,13 @@ async function compareProxyGologin(fullchangeCallback, type, host, port) {
     return changeResult;
 }
 
+async function proxyChangerGoLogin(type, host, port) {
+    async function fullChangeCallback() {
+        await getNewProxyXproxy(port);
+    }
+    return await compareProxyGologin(fullChangeCallback, type, host, port);
+}
+
 async function main() {
     // console.log(await checkProxyFromGologinApi("socks5", "100014837701498.ldproxy.com", 17309));
     // console.log(await changeProxyOfProfile("62187795c9544bcba0815034", "socks5", "100014837701498.ldproxy.com", 17309));
@@ -121,4 +128,5 @@ module.exports = {
     checkProxyFromGologinApi,
     changeProxyOfProfile,
     compareProxyGologin,
+    proxyChangerGoLogin,
 };

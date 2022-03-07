@@ -69,44 +69,60 @@ class PageFunctionNormal {
          */
         this.page = page;
     }
-    async click(selector, message, ...delayTime) {
+    async initAction(callback, message) {
         try {
+            async function callBackGoto() {
+                let condition = false;
+                try {
+                    await callback();
+                } catch (error) {
+                    console.log("ERROR IN ACTION : " + message, error);
+                    condition = true;
+                }
+                return condition;
+            }
+            await goto(callBackGoto, (condition) => condition, { retryMessage: `click ${message} by goto` });
+        } catch (error) {
+            console.log(message + " ERROR", error);
+            throw new Error(message + " ERROR");
+        }
+    }
+
+    async click(selector, message, ...delayTime) {
+        async function initCallback() {
             const element = await this.page.waitForSelector(selector);
             await delay(rn(500, 1000));
             await this.page.click(selector, { delay: 100 });
             await delay(rn(delayTime[0] || 500, delayTime[1] || 1000));
             console.log(message + " SUCCESS");
             return element;
-        } catch (error) {
-            console.log(message + " ERROR", error);
-            throw new Error(message + " ERROR");
         }
+        const bindAction = initCallback.bind(this);
+        await this.initAction(bindAction, message);
     }
     async type(selector, text, message, ...delayTime) {
-        try {
+        async function initCallback() {
             // await this.page.waitForSelector(selector);
             const element = await this.click(selector, "click before TYPE : " + message, delayTime[2], delayTime[3]);
             await this.page.keyboard.type(text, { delay: 100 });
             await delay(rn(delayTime[0] || 500, delayTime[1] || 1000));
             console.log(message + " SUCCESS");
             return element;
-        } catch (error) {
-            console.log(message + " ERROR", error);
-            throw new Error(message + " ERROR");
         }
+        const bindAction = initCallback.bind(this);
+        await this.initAction(bindAction, message);
     }
     async select(selector, value, message, ...delayTime) {
-        try {
+        async function initCallback() {
             // const element = await this.page.waitForSelector(selector);
             const element = await this.click(selector, "click before SELECT : " + message, delayTime[2], delayTime[3]);
             await this.page.select(selector, value);
             await delay(rn(delayTime[0] || 500, delayTime[1] || 1000));
             console.log(message + " SUCCESS");
             return element;
-        } catch (error) {
-            console.log(message + " ERROR", error);
-            throw new Error(message + " ERROR");
         }
+        const bindAction = initCallback.bind(this);
+        await this.initAction(bindAction, message);
     }
 }
 class PageFunctionHuman {}
@@ -200,8 +216,9 @@ async function runOutlook({ user, profile }, i) {
         // await instancePage.type("#MemberName", "vukhaihoan", "TYPE MAIL"); // check fail email test
         await instancePage.click("#iSignupAction", "CLICK SIGN UP BUTTON");
 
-        page.setDefaultTimeout(5000);
+        page.setDefaultTimeout(10000);
         await checkFailEmailKnowError(page, instancePage);
+        page.setDefaultTimeout(20000);
 
         await instancePage.type("#PasswordInput", password, "TYPE PASSWORD", 2000, 3000);
 

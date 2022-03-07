@@ -1,14 +1,14 @@
 // require("../overWrite");
 require("dotenv").config();
-const amount = 20;
+const amount = 30;
 var fs = require("fs");
 var util = require("util");
 
 const {
     runOutlookBridge,
-    gologinApi: { changeProxyOfProfile, checkProxyFromGologinApi, compareProxyGologin },
+    gologinApi: { changeProxyOfProfile, checkProxyFromGologinApi, compareProxyGologin, proxyChangerGoLogin },
     ipChanger: {
-        xproxy: { getCurrentProxyXproxy, getNewProxyXproxy, compareProxyXproxy },
+        xproxy: { getCurrentProxyXproxy, getNewProxyXproxy, compareProxyXproxy, proxyChangerXproxy },
     },
     createUserAndProfileBridge,
 } = require("../sbridge");
@@ -25,24 +25,12 @@ function consoleToLog(i) {
     };
     console.error = console.log;
 }
+
 async function createUserAndProfileFs() {
     const userAndProfile = await createUserAndProfileBridge();
     listProfile.push(userAndProfile);
     fs.writeFileSync(__dirname + "/../data/listProfile.json", JSON.stringify(listProfile));
     return userAndProfile;
-}
-async function proxyChangerGoLogin(type, host, port) {
-    async function fullChangeCallback() {
-        await getNewProxyXproxy(port);
-    }
-    return await compareProxyGologin(fullChangeCallback, type, host, port);
-}
-async function proxyChangerXproxy(port) {
-    async function fullChangeCallback() {
-        await getNewProxyXproxy(port);
-        await delay(7000);
-    }
-    return await compareProxyXproxy(fullChangeCallback, port);
 }
 
 async function main() {
@@ -50,7 +38,7 @@ async function main() {
         if (amount == 0) {
             throw new Error("Amount is 0");
         }
-        let i = 17;
+        let i = 25;
         while (i < amount) {
             try {
                 consoleToLog(i);

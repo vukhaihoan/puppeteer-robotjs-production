@@ -46,7 +46,7 @@ async function getNewProxyXproxy(port) {
         {
             "axios-retry": {
                 retryDelay: (retryCount) => {
-                    console.log(`getNewProxyXproxy get new proxyretry attempt: ${retryCount}`);
+                    console.log(`getNewProxyXproxy get new proxy retry attempt: ${retryCount}`);
                     return retryCount * 10000; // time interval between retries
                 },
                 retryCondition: (error) => {
@@ -63,7 +63,7 @@ function block4v6(ipv6) {
 }
 
 async function compareProxyXproxy(fullChangeCallback, port) {
-    const IpBeforeChange = await getCurrentProxyXproxy(port);
+    const IpBeforeChange = await getCurrentProxyXproxy(port, "BEFORE");
     console.log("IpBeforeChange", IpBeforeChange);
     await fullChangeCallback();
     if (!IpBeforeChange) {
@@ -78,7 +78,7 @@ async function compareProxyXproxy(fullChangeCallback, port) {
         message: "BOTH_V4_V6",
     };
     async function callback() {
-        const IpAfterChange = await getCurrentProxyXproxy(port, true);
+        const IpAfterChange = await getCurrentProxyXproxy(port, "AFTER");
         console.log("IpAfterChange", IpAfterChange);
         if (IpBeforeChange.public_ip != IpAfterChange.public_ip) {
             ipChangerCompareResult.v4Changed = true;
@@ -103,13 +103,21 @@ async function compareProxyXproxy(fullChangeCallback, port) {
         }
     }
     await goto(callback, condition, {
-        errmessgae: "Failed to change ip",
+        errMessage: "Failed to change ip",
         retryDelayTime: 5000,
     });
     if (ipChangerCompareResult.v4Changed && ipChangerCompareResult.v6Changed) {
         ipChangerCompareResult.success = true;
     }
     return ipChangerCompareResult;
+}
+
+async function proxyChangerXproxy(port) {
+    async function fullChangeCallback() {
+        await getNewProxyXproxy(port);
+        await delay(7000);
+    }
+    return await compareProxyXproxy(fullChangeCallback, port);
 }
 
 async function main() {
@@ -125,4 +133,5 @@ module.exports = {
     getCurrentProxyXproxy,
     getNewProxyXproxy,
     compareProxyXproxy,
+    proxyChangerXproxy,
 };

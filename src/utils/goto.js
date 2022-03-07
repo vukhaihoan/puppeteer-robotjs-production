@@ -4,7 +4,7 @@ function isPromise(promise) {
     return !!promise && typeof promise.then === "function";
 }
 
-async function goto(callback, condition, { retryAmount = 5, retryDelayTime = 2000, errmessgae, retryMessage }) {
+async function goto(callback, condition, { retryAmount = 5, retryDelayTime = 2000, errMessage, retryMessage }) {
     // console.log(condition);
     let resResultGlobal = null;
     function retryDelay(retryCount) {
@@ -28,7 +28,7 @@ async function goto(callback, condition, { retryAmount = 5, retryDelayTime = 200
         break;
     }
     if (check) {
-        throw new Error((errmessgae || `Failed to submit captcha `) + `after ${retryAmount} attempts`);
+        throw new Error((errMessage || `Failed to submit captcha `) + `after ${retryAmount} attempts`);
     }
     return resResultGlobal;
 }
