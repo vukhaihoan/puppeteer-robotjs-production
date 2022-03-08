@@ -1,12 +1,1 @@
-{
-    "user": {
-        "mail": { "Normal": "bovo713c7y", "Hard": "vo.bo64" },
-        "password": "NguyenRQd513#",
-        "lastOne": "Võ",
-        "last": "Nguyễn Văn",
-        "first": "Bộ",
-        "fullName": "Võ Bộ",
-        "born": { "day": "3", "month": "5", "year": "1988" }
-    },
-    "profile": { "profileId": "6222d155a6b626dcb00f2842", "profileName": "NguyenRQd513#" }
-}
+{"user":{"mail":{"Normal":"tutran788zjo","Hard":"huynhtruc.tu82"},"password":"pQpYrNguyen93%","lastOne":"Trần","last":"Huỳnh Trúc","first":"Tú","fullName":"Trần Tú","born":{"day":"23","month":"5","year":"1992"}},"profile":{"profileId":"622610e642c43052519bbde9","profileName":"pQpYrNguyen93%"}}
