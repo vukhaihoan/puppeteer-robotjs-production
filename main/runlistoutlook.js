@@ -6,19 +6,9 @@ var util = require("util");
 
 const {
   runOutlookBridge,
-  gologinApi: {
-    changeProxyOfProfile,
-    checkProxyFromGologinApi,
-    compareProxyGologin,
-    proxyChangerGoLogin,
-  },
+  gologinApi: { changeProxyOfProfile, checkProxyFromGologinApi, compareProxyGologin, proxyChangerGoLogin },
   ipChanger: {
-    xproxy: {
-      getCurrentProxyXproxy,
-      getNewProxyXproxy,
-      compareProxyXproxy,
-      proxyChangerXproxy,
-    },
+    xproxy: { getCurrentProxyXproxy, getNewProxyXproxy, compareProxyXproxy, proxyChangerXproxy },
   },
   createUserAndProfileBridge,
 } = require("../sbridge");
@@ -39,12 +29,7 @@ async function main() {
         console.log("user ", user);
         console.log(
           "change proxy profile status code : ",
-          await changeProxyOfProfile(
-            profile.profileId,
-            "socks5",
-            "100014837701498.ldproxy.com",
-            15309
-          )
+          await changeProxyOfProfile(profile.profileId, "socks5", "100014837701498.ldproxy.com", 15309)
         );
         // await proxyChangerGoLogin("socks5", "100014837701498.ldproxy.com", 15309);
         console.log(await proxyChangerXproxy(15309));

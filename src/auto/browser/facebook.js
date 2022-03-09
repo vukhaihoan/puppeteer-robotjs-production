@@ -65,6 +65,9 @@ async function runFaceBook({ user, profile }, i) {
     const { browser, GL } = await launchGologin(profile.profileId, true);
     Global.browser = browser;
     Global.GL = GL;
+    /**
+     * @type {PuppeteerChromiumType.Page}
+     */
     const page = await browser.newPage();
     // await page.emulateNetworkConditions(slow3G);
     await installMouseHelper(page);
@@ -75,23 +78,39 @@ async function runFaceBook({ user, profile }, i) {
 
     await instancePageHuman.clickHuman('a[data-testid="open-registration-form-button"]', "CLICK REGISTER BUTTON");
 
-    // await instancePageHuman.typeHuman('input[name="lastname"]', last, "TYPE LAST NAME");
+    await instancePageHuman.typeHuman('input[name="lastname"]', last, "TYPE LAST NAME");
 
-    // await instancePageHuman.typeHuman('input[name="firstname"]', first, "TYPE FIRST NAME");
+    await instancePageHuman.typeHuman('input[name="firstname"]', first, "TYPE FIRST NAME");
 
-    // await instancePageHuman.typeHuman('input[name="reg_email__"]', mail + "@outlook.com", "TYPE EMAIL");
+    await instancePageHuman.typeHuman('input[name="reg_email__"]', mail.Normal + "@outlook.com", "TYPE EMAIL");
 
-    // await instancePageHuman.typeHuman(
-    //   'input[name="reg_email_confirmation__"]',
-    //   mail + "@outlook.com",
-    //   "TYPE EMAIL CONFIRM"
-    // );
+    await instancePageHuman.typeHuman(
+      'input[name="reg_email_confirmation__"]',
+      mail.Normal + "@outlook.com",
+      "TYPE EMAIL CONFIRM"
+    );
 
-    // await instancePageHuman.typeHuman('input[id="password_step_input"', password, "TYPE PASSWORD");
+    await instancePageHuman.typeHuman('input[id="password_step_input"', password, "TYPE PASSWORD");
 
-    await instancePageHuman.clickHuman('select[id="day"]', "CLICK DAY");
+    // await instancePageHuman.clickHuman('select[id="day"]', "CLICK DAY");
 
-    await instancePageHuman.clickHuman('option[value="28"]', "CLICK DAY 28");
+    await instancePageHuman.select('select[id="day"]', born.day, "SELECT DAY");
+
+    // await instancePageHuman.clickHuman('select[id="month"]', "CLICK MONTH");
+
+    await instancePageHuman.select('select[id="month"]', born.month, "SELECT MONTH");
+
+    // await instancePageHuman.clickHuman('select[id="year"]', "CLICK YEAR");
+
+    await instancePageHuman.select('select[id="year"]', born.year, "SELECT YEAR");
+
+    await page.waitForSelector('input[name="sex"]');
+    const listSex = await page.$$('input[name="sex"]');
+    const sex = rn(0, 1) ? listSex[0] : listSex[1];
+    await sex.click({ delay: 100 });
+    console.log("CLICK SEX SUCCESS");
+
+    await instancePageHuman.clickHuman('button[name="websubmit"]', "SUBMIT REGISTER");
 
     await page.screenshot({
       path: path.resolve(__dirname, `../../../logs/${i}.png`),

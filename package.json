@@ -8,6 +8,7 @@
     "gologin": "^1.0.35",
     "gologin-launch": "^0.0.1",
     "is-ip": "^3.1.0",
+    "mail-notifier": "^0.5.0",
     "puppeteer": "^10.4.0",
     "puppeteer-core": "^13.4.1",
     "puppeteer-extra": "^3.2.3",

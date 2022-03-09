@@ -1,26 +1,16 @@
 const puppeteer = require("puppeteer-extra");
 const StealthPlugin = require("puppeteer-extra-plugin-stealth");
 const adblocker = require("puppeteer-extra-plugin-adblocker");
-const {
-  createCursor,
-  installMouseHelper,
-  GhostCursor,
-} = require("ghost-cursor");
+const { createCursor, installMouseHelper, GhostCursor } = require("ghost-cursor");
 puppeteer.use(StealthPlugin());
 puppeteer.use(adblocker());
-const {
-  humanizePuppeteer,
-  PuppeteerChromiumType,
-} = require("../../shared/puppeteerFunction");
+const { humanizePuppeteer, PuppeteerChromiumType } = require("../../shared/puppeteerFunction");
 const { delay, rn, axios, goto } = require("../../utils");
 
 const { launchProfileGologin } = require("../../initial/index");
 async function launchGologin(profileId, uploadCookiesToServer) {
   try {
-    let { ORBITA_BROWSER, params, env, GL } = await launchProfileGologin(
-      profileId,
-      uploadCookiesToServer
-    );
+    let { ORBITA_BROWSER, params, env, GL } = await launchProfileGologin(profileId, uploadCookiesToServer);
     const browser = await puppeteer.launch({
       headless: false,
       executablePath: ORBITA_BROWSER,
@@ -46,17 +36,9 @@ async function closeBrowserAndGologin(browser, GL, err) {
       .filter((value, index) => index > 0)
       .forEach(async (page, index) => {
         if (err) {
-          console.log(
-            "FORCE CLOSE PAGE DUE TO ERROR : " +
-              "https://" +
-              page.url().split("/")[2]
-          );
+          console.log("FORCE CLOSE PAGE DUE TO ERROR : " + "https://" + page.url().split("/")[2]);
         } else {
-          console.log(
-            "CLOSE PAGE BEFORE CLOSE BROWSER : " +
-              "https://" +
-              page.url().split("/")[2]
-          );
+          console.log("CLOSE PAGE BEFORE CLOSE BROWSER : " + "https://" + page.url().split("/")[2]);
         }
 
         await page.close();
@@ -71,11 +53,7 @@ async function closeBrowserAndGologin(browser, GL, err) {
   }
 }
 
-async function waitForNavigationKnowError(
-  page,
-  options = {},
-  message = "unknown message"
-) {
+async function waitForNavigationKnowError(page, options = {}, message = "unknown message") {
   try {
     await page.waitForNavigation(options);
   } catch (error) {
@@ -126,12 +104,7 @@ class PageFunctionNormal {
   async type(selector, text, message, ...delayTime) {
     async function initCallback() {
       // await this.page.waitForSelector(selector);
-      const element = await this.click(
-        selector,
-        "click before TYPE : " + message,
-        delayTime[2],
-        delayTime[3]
-      );
+      const element = await this.click(selector, "click before TYPE : " + message, delayTime[2], delayTime[3]);
       await this.page.keyboard.type(text, { delay: 100 });
       await delay(rn(delayTime[0] || 500, delayTime[1] || 1000));
       console.log(message + " SUCCESS");
@@ -143,12 +116,7 @@ class PageFunctionNormal {
   async select(selector, value, message, ...delayTime) {
     async function initCallback() {
       // const element = await this.page.waitForSelector(selector);
-      const element = await this.click(
-        selector,
-        "click before SELECT : " + message,
-        delayTime[2],
-        delayTime[3]
-      );
+      const element = await this.click(selector, "click before SELECT : " + message, delayTime[2], delayTime[3]);
       await this.page.select(selector, value);
       await delay(rn(delayTime[0] || 500, delayTime[1] || 1000));
       console.log(message + " SUCCESS");
@@ -205,15 +173,26 @@ class PageFunctionHuman {
   async typeHuman(selector, text, message, ...delayTime) {
     async function initCallback() {
       // await this.page.waitForSelector(selector);
-      const element = await this.click(
-        selector,
-        "click before TYPE : " + message,
-        delayTime[2],
-        delayTime[3]
-      );
+      const element = await this.clickHuman(selector, "click before TYPE : " + message, delayTime[2], delayTime[3]);
       await humanizePuppeteer.humanType(this.page, text);
       await delay(rn(delayTime[0] || 500, delayTime[1] || 1000));
       console.log(message + " humanize SUCCESS");
+      return element;
+    }
+    const bindAction = initCallback.bind(this);
+    await this.initAction(bindAction, message);
+  }
+  async selectHuman(selector, value, message, ...delayTime) {
+    // in development
+  }
+
+  async select(selector, value, message, ...delayTime) {
+    async function initCallback() {
+      // const element = await this.page.waitForSelector(selector);
+      const element = await this.clickHuman(selector, "click before SELECT : " + message, delayTime[2], delayTime[3]);
+      await this.page.select(selector, value);
+      await delay(rn(delayTime[0] || 500, delayTime[1] || 1000));
+      console.log(message + " SUCCESS");
       return element;
     }
     const bindAction = initCallback.bind(this);

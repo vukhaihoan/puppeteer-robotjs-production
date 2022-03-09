@@ -40,18 +40,23 @@ async function main() {
         // console.log(await proxyChangerXproxy(17039));
         // await runFacebookBridge({ user, profile }, i);
         const user = {
-          mail: { Normal: "yennguyen861drt", Hard: "giapyen45su" },
-          password: "6k2tHNguyen77*",
-          lastOne: "Nguyễn",
-          last: "Giáp",
-          first: "Yến",
-          fullName: "Nguyễn Yến",
-          born: { day: "18", month: "6", year: "1998" },
+          mail: { Normal: "hoale534uxk", Hard: "le.hoa3701" },
+          password: "4160BuiNaN%",
+          lastOne: "Lê",
+          last: "Nguyễn Lê Minh",
+          first: "Hóa",
+          fullName: "Lê Hóa",
+          born: { day: "7", month: "6", year: "1998" },
         };
         const profile = {
-          profileId: "62230a680d96188bdbbbde5e",
-          profileName: "6k2tHNguyen77*",
+          profileId: "6225fef87b2a955427abe5ed",
+          profileName: "4160BuiNaN%",
         };
+        console.log(
+          "change proxy profile status code : ",
+          await changeProxyOfProfile(profile.profileId, "socks5", "100014837701498.ldproxy.com", 17309)
+        );
+        console.log(await proxyChangerXproxy(17309));
         await runFacebookBridge({ user, profile }, i);
       } catch (error) {
         console.log(`LOOP ${i} ERROR `, error);
