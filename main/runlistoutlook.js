@@ -32,7 +32,7 @@ async function main() {
           await changeProxyOfProfile(profile.profileId, "socks5", "100014837701498.ldproxy.com", 15309)
         );
         // await proxyChangerGoLogin("socks5", "100014837701498.ldproxy.com", 15309);
-        console.log(await proxyChangerXproxy(15309));
+        // console.log(await proxyChangerXproxy(15309));
         await runOutlookBridge({ user, profile }, i);
         // const user = {
         //     mail: { Normal: "yennguyen861drt", Hard: "giapyen45su" },

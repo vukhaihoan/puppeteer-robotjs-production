@@ -22,20 +22,9 @@ async function gotoOutlookUrl(page, instancePage) {
 
     await instancePage.type("input[name=q]", "hotmail", "TYPE GOOGLE SEARCH ");
     await page.keyboard.press("Enter");
-    await waitForNavigationKnowError(
-      page,
-      { timeout: 0 },
-      "WAIT GOOGLE SEARCH LOAD "
-    );
-    await instancePage.click(
-      'a[href="https://outlook.live.com/"] > h3',
-      "CLICK HOTMAIL "
-    );
-    await waitForNavigationKnowError(
-      page,
-      { timeout: 5000 },
-      "WAIT GOTO OUTLOOK URL "
-    );
+    await waitForNavigationKnowError(page, { timeout: 0 }, "WAIT GOOGLE SEARCH LOAD ");
+    await instancePage.click('a[href="https://outlook.live.com/"] > h3', "CLICK HOTMAIL ");
+    await waitForNavigationKnowError(page, { timeout: 5000 }, "WAIT GOTO OUTLOOK URL ");
     console.log("GOTO OUTLOOK URL SUCCESS");
   } catch (error) {
     console.log("GOTO OUTLOOK URL ERROR", error);
@@ -45,12 +34,8 @@ async function gotoOutlookUrl(page, instancePage) {
 
 async function gotoSignUpUrl(page) {
   try {
-    await page.waitForSelector(
-      'a[href="https://outlook.live.com/owa/?nlp=1&signup=1"]'
-    );
-    const createButtonList = await page.$$(
-      'a[href="https://outlook.live.com/owa/?nlp=1&signup=1"]'
-    );
+    await page.waitForSelector('a[href="https://outlook.live.com/owa/?nlp=1&signup=1"]');
+    const createButtonList = await page.$$('a[href="https://outlook.live.com/owa/?nlp=1&signup=1"]');
     try {
       await createButtonList[0].click({ delay: 100 });
     } catch (err) {
@@ -78,13 +63,9 @@ async function checkFailEmailKnowError(page, instancePage) {
     });
     if (failedLink) {
       await instancePage.click("#suggLink", "CLICK FAIL LINK");
-      const buttonNameMail = await instancePage.click(
-        "#Suggestions > div > a",
-        "CLICK BUTTON NAME MAIL"
-      );
+      const buttonNameMail = await instancePage.click("#Suggestions > div > a", "CLICK BUTTON NAME MAIL");
       // get Mail Name
-      const newMail = (await buttonNameMail.getProperty("textContent"))
-        ._remoteObject.value;
+      const newMail = (await buttonNameMail.getProperty("textContent"))._remoteObject.value;
       const newMailTextSplit = newMail.split("@")[0];
       console.log("NEW MAIL FAIL: ", newMailTextSplit);
       await instancePage.click("#iSignupAction", "CLICK SIGN UP BUTTON AGAIN");
@@ -108,6 +89,9 @@ async function runOutlook({ user, profile }, i) {
     const { browser, GL } = await launchGologin(profile.profileId, true);
     Global.browser = browser;
     Global.GL = GL;
+    await delay(3000);
+    const pageTest = await browser.newPage();
+    await delay(3000);
     const page = await browser.newPage();
     // await page.emulateNetworkConditions(slow3G);
     const instancePage = new PageFunctionNormal(page);
@@ -126,36 +110,17 @@ async function runOutlook({ user, profile }, i) {
     await checkFailEmailKnowError(page, instancePage);
     page.setDefaultTimeout(20000);
 
-    await instancePage.type(
-      "#PasswordInput",
-      password,
-      "TYPE PASSWORD",
-      2000,
-      3000
-    );
+    await instancePage.type("#PasswordInput", password, "TYPE PASSWORD", 2000, 3000);
 
-    await instancePage.click(
-      "#ShowHidePasswordCheckbox",
-      "CLICK SHOW HIDE PASSWORD"
-    );
+    await instancePage.click("#ShowHidePasswordCheckbox", "CLICK SHOW HIDE PASSWORD");
 
-    await instancePage.click(
-      "#iSignupAction",
-      "CLICK SIGN UP BUTTON",
-      2000,
-      3000
-    );
+    await instancePage.click("#iSignupAction", "CLICK SIGN UP BUTTON", 2000, 3000);
 
     await instancePage.type("#FirstName", last, "TYPE FIRST NAME", 1000, 2000);
 
     await instancePage.type("#LastName", first, "TYPE LAST NAME", 1000, 2000);
 
-    await instancePage.click(
-      "#iSignupAction",
-      "CLICK SIGN UP BUTTON",
-      2000,
-      3000
-    );
+    await instancePage.click("#iSignupAction", "CLICK SIGN UP BUTTON", 2000, 3000);
 
     await instancePage.select("#BirthMonth", born.month, "SELECT BORN MONTH");
 
@@ -163,39 +128,20 @@ async function runOutlook({ user, profile }, i) {
 
     await instancePage.type("#BirthYear", born.year, "SELECT BORN YEAR");
 
-    await instancePage.click(
-      "#iSignupAction",
-      "CLICK SIGN UP BUTTON",
-      4000,
-      5000
-    );
+    await instancePage.click("#iSignupAction", "CLICK SIGN UP BUTTON", 4000, 5000);
 
     await submitAnyCaptchaToken(page);
 
     await instancePage.click("#KmsiCheckboxField", "CLICK KMSI CHECKBOX");
 
-    await instancePage.click(
-      "#idSIButton9",
-      "CLICK SIGN UP BUTTON",
-      4000,
-      5000
-    );
+    await instancePage.click("#idSIButton9", "CLICK SIGN UP BUTTON", 4000, 5000);
 
     page.setDefaultTimeout(20000);
-    await waitForNavigationKnowError(
-      page,
-      { waitUntil: "networkidle2" },
-      "WAIT GOTO MAILBOX PAGE"
-    );
+    await waitForNavigationKnowError(page, { waitUntil: "networkidle2" }, "WAIT GOTO MAILBOX PAGE");
 
     await delay(rn(4000, 5000));
 
-    await instancePage.click(
-      'span[title="no-reply@microsoft.com"]',
-      "CLICK NO REPLY",
-      3000,
-      4000
-    );
+    await instancePage.click('span[title="no-reply@microsoft.com"]', "CLICK NO REPLY", 3000, 4000);
 
     // await page.waitForSelector('button[aria-label="Forward"]');
     // await page.evaluate(() => {
