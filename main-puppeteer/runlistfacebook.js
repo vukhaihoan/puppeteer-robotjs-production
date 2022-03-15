@@ -26,6 +26,7 @@ async function main() {
       try {
         // consoleToLog(i);
         // const { user, profile } = await createUserAndProfileFs();
+        // const { profile } = await createUserAndProfileFs();
         // console.log("user ", user);
         // console.log(
         //   "change proxy profile status code : ",
@@ -33,30 +34,30 @@ async function main() {
         //     profile.profileId,
         //     "socks5",
         //     "100014837701498.ldproxy.com",
-        //     17039
+        //     17309
         //   )
         // );
-        // // await proxyChangerGoLogin("socks5", "100014837701498.ldproxy.com", 17039);
-        // console.log(await proxyChangerXproxy(17039));
+        // await proxyChangerGoLogin("socks5", "100014837701498.ldproxy.com", 17309);
+        // console.log(await proxyChangerXproxy(17309));
         // await runFacebookBridge({ user, profile }, i);
         const user = {
-          mail: { Normal: "hoale534uxk", Hard: "le.hoa3701" },
-          password: "4160BuiNaN%",
-          lastOne: "Lê",
-          last: "Nguyễn Lê Minh",
-          first: "Hóa",
-          fullName: "Lê Hóa",
-          born: { day: "7", month: "6", year: "1998" },
+          mail: { Normal: "thanhnguyen91700z", Hard: "nguyenthanh23" },
+          password: "NguyenJWK270?",
+          lastOne: "Nguyễn",
+          last: "Vũ",
+          first: "Thanh",
+          fullName: "Nguyễn Thanh",
+          born: { day: "29", month: "3", year: "2002" },
         };
         const profile = {
-          profileId: "6225fef87b2a955427abe5ed",
-          profileName: "4160BuiNaN%",
+          profileId: "62295b049c1f935f0c801c05",
+          profileName: "vxGS6Nhan69!",
         };
         console.log(
           "change proxy profile status code : ",
           await changeProxyOfProfile(profile.profileId, "socks5", "100014837701498.ldproxy.com", 17309)
         );
-        console.log(await proxyChangerXproxy(17309));
+        // console.log(await proxyChangerXproxy(17309));
         await runFacebookBridge({ user, profile }, i);
       } catch (error) {
         console.log(`LOOP ${i} ERROR `, error);

@@ -160,7 +160,12 @@ class PageFunctionHuman {
   }
   async clickHuman(selector, message, ...delayTime) {
     async function initCallback() {
-      const element = await this.page.waitForSelector(selector);
+      let element;
+      if (typeof selector === "string") {
+        element = await this.page.waitForSelector(selector);
+      } else {
+        element = selector;
+      }
       await delay(rn(500, 1000));
       await this.cursor.click(selector);
       await delay(rn(delayTime[0] || 500, delayTime[1] || 1000));

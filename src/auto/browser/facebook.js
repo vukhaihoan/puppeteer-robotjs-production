@@ -107,7 +107,7 @@ async function runFaceBook({ user, profile }, i) {
     await page.waitForSelector('input[name="sex"]');
     const listSex = await page.$$('input[name="sex"]');
     const sex = rn(0, 1) ? listSex[0] : listSex[1];
-    await sex.click({ delay: 100 });
+    await instancePageHuman.clickHuman(sex, "CLICK SEX");
     console.log("CLICK SEX SUCCESS");
 
     await instancePageHuman.clickHuman('button[name="websubmit"]', "SUBMIT REGISTER");
@@ -118,7 +118,7 @@ async function runFaceBook({ user, profile }, i) {
 
     // await page.close();
 
-    await closeBrowserAndGologin(browser, GL);
+    // await closeBrowserAndGologin(browser, GL);
   } catch (error) {
     console.log(`RUN PROFILE OUTLOOK ERROR : ${profile.profileId}`, error);
     await closeBrowserAndGologin(Global.browser, Global.GL, true);

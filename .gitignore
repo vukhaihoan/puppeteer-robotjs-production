@@ -2,3 +2,6 @@
 /node_modules
 /1other
 /logs
+pyscript/images/captures
+pyscript/images/crops
+pyscript/images/results
